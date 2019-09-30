@@ -1,0 +1,260 @@
+
+.autoInvestMatchConfirm .timeCountDown{
+  font-size: 0.75rem;text-align: center;background: #FEF5E8;padding: 0.625rem 0;
+  color: #F48A12;
+}
+.autoInvestMatchConfirm .autoCardBg{background-color: #fff;padding-top: 1rem;}
+.autoInvestMatchConfirm .autoCard{height:7.0625rem;margin:0 1rem;padding-top:1.6875rem;background:url(~assets/images/bg_linner_1.png) no-repeat center center/100% 100%;box-shadow: 0 0 .3125rem 0 rgba(230,200,153,0.48);border-radius: .25rem;margin:0 1rem;color:#AD8B57;color:#FFFFFF; text-align:center;margin-bottom:.625rem;font-weight:600;}
+.autoInvestMatchConfirm .autoCard .p1{font-size: 0.75rem;margin-bottom: 0.6rem;}
+.autoInvestMatchConfirm .autoCard .p2{font-size: 2.0625rem;font-weight: bold;margin-bottom: .875rem;line-height: 2rem;}
+.autoInvestMatchConfirm .autoCard .p3{font-size: 0.75rem;}
+.autoInvestMatchConfirm .autoCard .p3 strong{margin-left: 0.875rem;font-size:1rem;}
+.autoInvestMatchConfirm .redPacket {
+  width: 95%;margin-left: 5%;
+  height: 3.25rem;
+  background-color: #fff;
+  font-size: 0.875rem;
+  border-bottom:1px solid #DFE3EB
+}
+.autoInvestMatchConfirm .redPacket:last-child{border-bottom: 1px #DFE3EB solid;}
+.autoInvestMatchConfirm .redPacket .span1 {
+  color: #848999;font-size: 1rem;
+  line-height: 3.25rem;
+  margin-right: 0.5rem;
+}
+.autoInvestMatchConfirm .redPacket .span2 {
+  float: right;  line-height: 3.25rem;  margin-right: 10%;color: #323642;font-size: 0.875rem;font-weight: bold;
+}
+.autoInvestMatchConfirm .redPacket .span4 {
+  font-size: 0.75rem;background:rgba(243,70,73,.1);
+  margin-top: 0.9rem;
+  padding:0 .40625rem;
+  border-radius: 2rem;
+  line-height:1.25rem;
+  color: #F34649;
+}
+.autoInvestMatchConfirm .redPacket i{font-style:normal;font-weight:normal;}
+
+.autoInvestMatchConfirm .auto-part {
+  font-size: 1rem;margin-top: 0.75rem;
+}
+.autoInvestMatchConfirm .auto-part .ap-title {
+  margin-left: 5%;
+  padding:0.875rem 0;
+}
+.autoInvestMatchConfirm .auto-part .ap-con {
+  background-color: #ffffff;
+  padding-left: 5%;
+  overflow: hidden;padding-left:1rem;}
+
+.autoInvestMatchConfirm .auto-part .ap-con p {
+  color: #2b313d;
+  padding-right: 5%;
+  border-bottom: 1px #e8e7e7 solid;
+  display: block;  height:3rem;
+  line-height: 3rem;
+}
+.autoInvestMatchConfirm .auto-part .ap-con p .span1 {
+  float: right;color: #848899;font-size: 0.875rem;
+}
+.autoInvestMatchConfirm .auto-part .ap-con p .span1 img {
+  width: 1rem;
+  margin-left: 0.5rem;
+  vertical-align: text-bottom;
+}
+.autoInvestMatchConfirm .auto-part .ap-con p .span2 {
+  float: right;color:#848999;font-size: 0.875rem;
+}
+.autoInvestMatchConfirm .auto-part .ap-con p .span2 img {
+  width: 0.5rem;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+
+.auto-debt-list{background-color: #ffffff;border-bottom: 1px #eaeaea solid;    margin-bottom: 1rem;}
+.auto-debt-list .div-list{padding: 0.875rem 0;width: 90%;margin-left: 5%;color: #2b313d;font-size: 0.75rem;border-bottom: 1px #eaeaea solid;}
+.auto-debt-list .div-list .title-num{color:#848999; margin-bottom: 1rem;}
+.auto-debt-list .div-list .ul-con{overflow: hidden;}
+.auto-debt-list .div-list .ul-con .li1{width: 44%;}
+.auto-debt-list .div-list .ul-con .li2{width: 32%;}
+.auto-debt-list .div-list .ul-con .li3{width: 24%;position: relative;padding-left: 2.25rem;}
+.auto-debt-list .div-list .ul-con .li3 .jt{position: absolute;
+    width: 0.5rem;
+    right: 0;
+}
+
+.auto-debt-list .div-list .ul-con li{color:#848999;float: left;}
+.auto-debt-list .div-list .ul-con li span{color: #2b313d;font-weight: bold;display: block;}
+.auto-debt-list .div-more{ height:3.125rem;font-size: 1rem;color:#f0484e;text-align: center;display:block;
+line-height: 3.125rem;}
+.auto-debt-list .div-more img{  width: 0.6rem;
+  margin-left: 0.5rem;
+  vertical-align: middle;}
+
+
+.foot-btn {
+  position: fixed;
+  bottom: 0;
+  left: 0;color:#848999;
+  width: 100%;padding: 1rem 0;
+  background-color: #fff;
+  z-index:9;
+}
+
+#autoInvestMatchConfirm .inv-confirm-desc{ display:block;line-height:1.25rem;padding:1.25rem;padding-top:.25rem;color:#848999;font-size:.75rem;}
+#autoInvestMatchConfirm .inv-confirm-desc span{color:#2b313d}
+#autoInvestMatchConfirm .inv-confirm-desc a{color:#F0484E;}
+
+#autoInvestMatchConfirm .inv-confirm-xieyi {overflow: hidden;
+  font-size: 0.688rem;padding-top: 1rem;
+  width: 86%;margin-bottom: 0.3rem;padding:0 7%;
+}
+#autoInvestMatchConfirm .inv-confirm-xieyi input {
+  vertical-align: -2px;
+  margin-right: 4px;
+}
+#autoInvestMatchConfirm .inv-confirm-xieyi .span1 a {
+  color:#f0484e;
+}
+#autoInvestMatchConfirm .inv-confirm-xieyi .span1{
+  float: left;line-height: 1.125rem;
+    width: 90%;
+    margin-left: 0.3rem;
+
+}
+.foot-btn .goInvest{background-color: #f0484e;line-height: 2.75rem;margin: 0.7rem 5% 1rem;}
+
+.redbagTk {
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  z-index: 22;
+  max-width: 600px;
+  height: 316px;
+  overflow-y: scroll;
+}
+.redbagTk .title {
+  margin: 0 auto 10px;
+  width: 80%;
+  padding-top: 15px;
+}
+.redbagTk .title img {
+  width: 100%;
+}
+.redbagTk .rb_com {
+  margin: 0 auto 10px;
+  width: 90%;
+  overflow: hidden;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.redbagTk .pos{position: relative;}
+.redbagTk .rb_com .left {
+  float: left;
+  width: 30%;
+  margin-left: 3px;
+  margin-top: 2px;
+  text-align: center;
+  line-height: 46px;
+  height: 46px;
+  font-size: 1.2em;
+}
+.redbagTk .rb_com .left font {
+  font-size: 0.7em;
+}
+.redbagTk .rb_com .center {
+  float: left;
+  width: 38%;
+  font-size: 0.8em;
+  padding-left: 5%;
+  height: 50px;
+}
+.redbagTk .rb_com .center .p1 {
+  margin-top: 8px;
+}
+.redbagTk .rb_com .right {
+  float: left;
+  width: 25%;height:50px;
+  text-align: center;
+}
+.redbagTk .rb_com .right input{
+  width: 100%;
+  position: absolute;
+  height: 45px;
+  left: 0;
+  top: 0;
+  z-index: 19;
+  opacity: 0;
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  filter: alpha(opacity=0);
+}
+.redbagTk .rb_com .right input:checked + .btn-show {
+  background-image: url("~assets/wapFront/autoInvest/img/xuanzhong.png");
+}
+
+.redbagTk .rb_com .right .btn-show{
+   background-image: url("~assets/wapFront/autoInvest/img/weixuanzhong.png");
+   background-size: 100% 100%;display: block;
+   width: 30px;height: 30px;
+   margin-left: 30px;position: absolute;top: 10px;
+}
+
+.redbagTk .rb_jiaxi {
+  background-image: url("//static.facebank.cn/static/wapFront/autoInvest/img/jiaxi_bg.png");
+}
+.redbagTk .rb_jiaxi .left {
+  color: #ed7373;
+  background-color: #fef1f1;
+}
+.redbagTk .rb_jiaxi .center .p1 {
+  color: #ed7373;
+}
+.redbagTk .rb_fanxian {
+  background-image: url("//static.facebank.cn/static/wapFront/autoInvest/img/fanxian_bg.png");
+}
+.redbagTk .rb_fanxian .left {
+  color: #fb9d41;
+  background-color: #fef8f0;
+}
+.redbagTk .rb_fanxian .center .p1 {
+  color: #fb9d41;
+}
+.redbagTk .rb_wu {
+  background-image: url("//static.facebank.cn/static/wapFront/autoInvest/img/wu_bg.png");
+}
+.redbagTk .rb_wu div.left {
+  font-size: 0.9em;
+}
+.wapPos .div-value{width: 90%;margin: 0 auto 1rem;padding-top: 1rem;}
+.wapPos .div-value p{margin-bottom: 0.6rem;}
+.wapPos .div-value p .span-right{float: right;}
+.wapPos .div-value p .span-right font{color: #f0484e;}
+
+.autoInvestMatchConfirm .auto-part .ap-title{background:#FFFFFF;border-top:1px solid #e8e8e8;padding-left:1rem;margin-left:0;color:#2b313d;}
+.auto-debt-list .div-list{border-top:1px solid #e8e8e8;border-bottom:0;width:auto;padding-right:1rem;}
+.auto-debt-list .div-list .ul-con .li1{width:auto; white-space:nowrap;}
+.auto-debt-list .div-list .ul-con .li3,
+.auto-debt-list .div-list .ul-con .li2{width:auto; white-space:nowrap;float:right;}
+.auto-debt-list .div-list .ul-con .li3{padding-right:1rem;}
+.auto-debt-list .div-list .ul-con .li2{margin-left:0;}
+.auto-debt-list .div-more{border-top:1px solid #e8e8e8;font-size:.875rem;}
+.auto-debt-list .div-more img{float:right;margin-right:1rem;height:1rem;margin-top:1rem;}
+.foot-btn .goInvest{width:93.6%;margin:0 auto;display:block;}
+.foot-btn .inv-confirm-xieyi{margin:0 1rem;margin-bottom:.5rem;padding-top:1.2rem;}
+.auto-head {
+    width: 100%;    position: relative;
+    text-align: center;
+    font-size: 0.75rem;
+    color: #ffffff;
+    padding: 0.3rem 0 0.688rem;
+    background-color:#1c1b21;
+}
+.auto-head span{color:#fa9b5b;}
+.auto-head a{    position: absolute;
+    right: 1rem;
+    color: #fff;
+    text-decoration: underline;}

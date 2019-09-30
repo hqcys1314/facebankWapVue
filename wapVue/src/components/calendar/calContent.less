@@ -1,0 +1,62 @@
+@import '~assets/css/variables';
+@import '~assets/css/mixins';
+.calContent{margin-top: 0.75rem;z-index: 8;background: #FFFFFF;
+   .calContentTip{font-size: 0.813rem;padding-top: 80*@ptr;padding-bottom: 292*@ptr;
+      color: #717583;background-color: #fff;
+      text-align: center;}
+   .repayAdvance{background-color: #fff;margin-bottom: 0.75rem;
+      .repayMoney{border-bottom: 1px #DFE3EB solid;padding-bottom:48*@ptr;position: relative;
+        .spanIcon{position: absolute;right: 0;top:2rem;
+            img{width: 138*@ptr;}
+        }
+      }
+   }
+   .repayNormal{background-color: #fff;}
+   .repayTip{padding:0.5rem 5%;font-size: 0.688rem;color: #f48a12;
+     line-height: 1rem;background-color: #FFF6EB;}
+   .repayTip a{color: #f48a12;}
+   .repayMoney{margin-left: 5%;padding-top: 2rem;padding-bottom:40*@ptr;
+     .p1{font-size: 0.813rem;color: #2b313d;margin-bottom: 0.75rem;}
+     .p2{font-size: 1.125rem;color: #F0484E;font-family:arial;font-weight:bold;
+       .span1{font-size:56*@ptr;}
+     }
+   }
+
+   .calTips{display:block;margin:0 1rem;border-radius:.25rem;background:#FEF5E8;padding:0 .75rem;line-height:1.125rem;color:#2B313D;font-size: .6875rem; position: relative;
+       .close{width:1rem;height:1rem;background:url(~assets/wapFront/common/img/icon_close.png) no-repeat center center/.5625rem .5625rem;right:.625rem;top:.75rem;position: absolute;}
+       h6{font-size:.6875rem;color:#F48A12;font-weight:bold;margin-bottom:.25rem;padding-top:.75rem;}
+       h6:last-child{margin-bottom:.5rem;}
+       p{height:auto;overflow:hidden;}
+       p.time{line-height:1rem;margin:.09375rem 0}
+       p:last-child{padding-bottom:.75rem;}
+       p small{float:left; white-space: nowrap;font-size:.6875rem;font-style:normal;}
+       p span{display:block;float:left;padding:0 .22rem;margin:0 .1rem;margin-top:.09375rem;min-width:1rem;white-space: nowrap; text-align:center;line-height:1rem;font-size:.75rem;color:#FFFFFF;background:url(~assets/images/limit_time_2.png) no-repeat center center/100% 100%;}
+       p i.mh{height:1rem;overflow:hidden;width:.25rem;display:block;float:left; text-indent: 999px;overflow:hidden;background:url(~assets/images/limit_time_3.png) no-repeat center center/100% 100%;}
+       p i.day{height:1rem;overflow:hidden;display:block;float:left;overflow:hidden;font-style:normal;}
+   }
+
+   .repayDetailTitle{font-size: 1rem;color: #848899;padding-left: 5%;margin-bottom: 0.813rem;margin-top:2.25rem;}
+   .repayDetail{margin-left: 5%;
+      ul{
+        li{border-bottom: 1px #DFE3EB solid;padding-top: 1rem;padding-bottom: 36*@ptr;
+          a{display: block;}
+          .p1{color: #2B313D;
+            .span1{display: inline-block; font-family:Arial; font-size:1rem;font-weight:bold;
+                em.autoInvest{ display:inline-block;font-size:.625rem;color:#6D8BF9;line-height:1;padding:.1875rem .5rem;border:1px solid #6D8BF9;border-radius:.46875rem;font-weight:400;font-style:normal;}
+                em.timeDeposit{ display:inline-block;font-size:.625rem;color:#FF8084;line-height:1;padding:.1875rem .5rem;border:1px solid #FF8084;border-radius:.46875rem;font-weight:400;font-style:normal;}
+            }
+            .span2{display: inline-block;float: right;    margin-top: 0.2rem;font-size: 0.813rem;  padding-right: 5%;
+              i{font-size: 1rem;margin-left: 0.3rem;
+                vertical-align: middle;
+                color: #CED2D8;}
+            }
+          }
+          .p2{
+            .span1{font-size: 0.75rem;color: #848899; }
+          }
+
+        }
+        li:last-child{border-bottom:0;}
+      }
+   }
+}

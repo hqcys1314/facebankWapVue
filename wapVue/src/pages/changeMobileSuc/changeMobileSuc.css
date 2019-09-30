@@ -1,0 +1,14 @@
+.page{ display: block;background:#FFFFFF;bottom:0;position:absolute;left:0;top:2.6875rem;width:100%;}
+.page .box{width:92%;margin:0 auto;}
+.page .mobile{font-size:1.125rem;margin-top:2.5rem;color:#2b313d;}
+.page .desc{font-size:.75rem;margin-top:.75rem;color:#848499;margin-bottom:2.5rem;}
+.page .form{height:auto;overflow:hidden;}
+.page .form .input {border-bottom:1px solid #CED2D8;height:3.25rem;}
+.page .btn_tpl{width:100%; display:block;margin:1.5rem auto 0;line-height:3rem;text-align:center;color:#FFF;font-size:1rem;background:#F34649;border-radius:.375rem;}
+.page .btn_tpl.none{background: #ccc;}
+
+.success{width: 92%;margin:1.5rem auto 0;}
+.success{text-align: center;}
+.success .mobile{font-size: 1.5rem;margin-top: .6rem;}
+.success .green{color: #00C394;font-size: 1.125rem;}
+.success .text{font-size: .8rem;color: #848899;margin-top: .8rem;}

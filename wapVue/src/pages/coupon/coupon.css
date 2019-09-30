@@ -1,0 +1,169 @@
+
+.page_box{min-height:100%;background:#FFFFFF;}
+.switch_box{width:100%;height:2.75rem; text-align:center;}
+.switch_box a{ display:inline-block;margin:0 2rem; position:relative;}
+.switch_box a span{line-height:2.5rem;font-size:1rem;color:#848899; display:block;}
+.switch_box a i{height:.125rem;width:1rem; position: static;overflow:hidden;border-radius:2px;background:#FFFFFF;margin:0 auto; display:block;margin:0 auto;}
+.switch_box a.current span{color:#F0484E;font-weight:600;}
+.switch_box a.current i{background:#F0484E;display:block;margin-bottom:.28125rem}
+
+
+.switch_tab{display:block;line-height:2.75rem; text-align:center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom:.46875rem;background:#FFFFFF;font-size:1rem;font-weight:600;}
+    .switch_tab ul{width:66.66%;margin:0 auto;}
+.switch_tab li{width:50%;float:left;color:#2b313d; list-style-type:none;}
+.switch_tab li.current{color:#f0484e; position:relative;}
+.switch_tab li.current:after{display:block;content: ' ';background:#F0484E;position: absolute;left: 50%;margin-left:-.5rem;;width:1rem;height:.125rem;bottom:0.28125rem;border-radius:.0625rem;}
+
+
+.bar_desc{ display:block;line-height:2.4375rem; text-align:right;font-size:.875rem;margin:0 1rem;height:auto;overflow:hidden;}
+.bar_desc a{float:right; display:block;padding-right:1.5625rem;line-height:2.4375rem;color:#2B313D;background:url(//static.facebank.cn/static/wapFront/common/img/askicon.png) no-repeat right center/auto 1.1875rem;}
+
+.page_content{margin:0 1rem;min-height:40rem;}
+
+
+.card_item{height:7.5rem;padding:1.25em;border-radius:.375rem;overflow:hidden;background:no-repeat center center/100% auto;margin-bottom:.625rem; position:relative;}
+.card_item.type_1{background-image:url('//static.facebank.cn/static/wapFront/common/images/coupon/coupon_bg_1.png')}
+.card_item.type_2{background-image:url('//static.facebank.cn/static/wapFront/common/images/coupon/coupon_bg_2.png')}
+.card_item.type_1.invalid{background-image:url('//static.facebank.cn/static/wapFront/common/images/coupon/coupon_bg_invalid.png')}
+.card_item.type_2.invalid{background-image:url('//static.facebank.cn/static/wapFront/common/images/coupon/coupon_bg_invalid.png')}
+.card_item.type_3{background-image:url('//static.facebank.cn/static/wapFront/common/images/coupon/coupon_bg_3.png')}
+.card_item.type_3.invalid{background-image:url('//static.facebank.cn/static/wapFront/common/images/coupon/coupon_bg_3_invalid.png')}
+
+.card_item.type_3  .box .name{color:#CCA25B}
+.card_item.type_3  .box .infos p span{color:#CCA25B}
+.card_item.type_3  .box .infos p i{color:rgba(255,255,255,.7)}
+
+.card_item .box{height:7rem; position:relative; display:block;}
+.card_item .box .name{float:left; white-space: nowrap;font-size:1rem;color:rgba(255,255,255,1);}
+.card_item .box .surplus{padding:0 .5625rem;float:right; white-space: nowrap;line-height:1.375rem; text-align:center;border:1px solid rgba(255,255,255,.5);border-radius:0.6875rem;font-size:.75rem;color:#FFFFFF;}
+.card_item .box .surplus.no_active{background-color:rgba(255,255,255,.3);border:1px solid rgba(255,255,255,0);}
+.card_item .box .surplus .status{width:2.5rem;line-height:1.125rem; text-align: center;color:#FFFFFF;position: absolute;right:-.625rem;top:-.75rem;font-size:.625rem;background:no-repeat center center/100% 100%;}
+.card_item .box .surplus .status.type_1{background-image:url(//static.facebank.cn/static/wapFront/common/images/coupon/tags_new.png)}
+.card_item .box .surplus .status.type_2{background-image:url(//static.facebank.cn/static/wapFront/common/images/coupon/tags_soon.png)}
+.card_item .box .infos{width:100%; position: absolute;bottom:-.3rem;left:0;}
+.card_item .box .infos p{width:7rem;float:left; white-space: nowrap;}
+.card_item .box .infos p span{ display:block;font-family:arial, Microsoft YaHei;line-height:2.5rem;font-size:2.0625rem;height:2.5rem;color:#FFFFFF;font-family:Arial;font-weight:bold;margin-bottom:.3rem;}
+.card_item .box .infos p span em{font-style:normal;font-size:.75rem;font-weight:200;}
+.card_item .box .infos p i{ display:block;line-height:1;font-size:.75rem;font-style:normal;color:rgba(255,255,255,.7);}
+.card_item .box .infos p.font i{line-height:1.25rem;}
+.card_item .box .infos p.font{padding-left:.8125rem;}
+.card_item .icon_enter{width:1.75rem;height:1.75rem; display:block; position:absolute;right:1.25rem;bottom:2.375rem;background:url(//static.facebank.cn/static/wapFront/common/images/coupon/arrow_circle.png) no-repeat center center/100% 100%;}
+.card_item .box .surplus_invalid{width:3.75rem;height:2.40625rem; display:block; opacity: .8;text-indent:999rem;line-height:2.40625em;overflow:hidden; position:absolute;top:-.5rem;right:-.5rem;background:url(//static.facebank.cn/static/wapFront/common/images/coupon/status_Invalid.png) no-repeat center center/100% 100%;}
+
+.card_item.type_3 .box,
+.card_item.type_3 .box .infos p span{ color:#CCA25B;}
+.card_item.type_3 .box .infos > p:last-child> span{font-size:1.5rem;}
+
+
+.card_item.type_1.invalid .box,
+.card_item.type_1.invalid .box .infos p span,
+.card_item.type_2.invalid .box,
+.card_item.type_2.invalid .box .infos p span,
+.card_item.type_3.invalid .box,
+.card_item.type_3.invalid .box .infos p span{color:rgba(255,255,255,.5);}
+
+.card_item.invalid .box .name{float:left; white-space: nowrap;font-size:1rem;color:rgba(255,255,255,.5);}
+.card_item.invalid .box .infos p i{ display:block;line-height:1;font-size:.75rem;font-style:normal;color:rgba(255,255,255,.5);}
+
+
+.empty{display:block;min-height:30rem;}
+.no_hb_1{width: 100%;text-align: center;margin-top: 0;}
+.no_hb_1 img{width: 175px;}
+.no_hb_3{width: 100%;text-align: center;margin-top: 0;}
+.no_hb_3 img{width: 14.375rem;margin:0 auto;}
+.no_hb_2{text-align: center;}
+.no_hb_2 .p1{color: #2b313d;font-size: 1.125em;font-weight:600;margin: 15px 0 5px;}
+.no_hb_2 .p2{color:#848999;font-size: 0.875em;}
+.no_hb_2 .p3{color:#848999;font-size: 0.875em;line-height:3rem;}
+
+
+.redpack_item{border-radius:.25rem .25rem 0 0;overflow:hidden;background:no-repeat center top/100% 7.96875rem;margin-bottom:.625rem; position:relative;}
+.redpack_item{background-image:url('//static.facebank.cn/static/wapFront/common/images/coupon/redpack_bg.png')}
+.redpack_item.invalid{background-image:url('//static.facebank.cn/static/wapFront/common/images/coupon/redpack_invalid.png')}
+.redpack_item .box{color:rgba(255,255,255,1);height:6.8rem; position:relative; display:block;padding:1.25em;padding-bottom:0; position: relative;}
+.redpack_item .box .name{float:left; white-space: nowrap;font-size:1rem;color:rgba(255,255,255,.8)}
+.redpack_item .box .surplus{padding:0 .5625rem;float:right; white-space: nowrap;line-height:1.375rem; text-align:center;border:1px solid rgba(255,255,255,.5);border-radius:0.6875rem;font-size:.75rem; }
+.redpack_item .box .surplus.no_active{background-color:rgba(255,255,255,.3)}
+
+.redpack_item .box .surplus .status{width:2.5rem;line-height:1.125rem; text-align: center;color:#FFFFFF;position: absolute;right:-.625rem;top:-.75rem;font-size:.625rem;background:no-repeat center center/100% 100%;}
+.redpack_item .box .surplus .status.type_1{background-image:url(//static.facebank.cn/static/wapFront/common/images/coupon/tags_new.png)}
+.redpack_item .box .surplus .status.type_2{background-image:url(//static.facebank.cn/static/wapFront/common/images/coupon/tags_soon.png)}
+.redpack_item .box .infos{display:block;position: absolute;bottom:1rem;left:1.25rem;}
+.redpack_item .box .infos p{ display:block; white-space: nowrap;}
+.redpack_item .box .infos p span{ display:inline-block;font-family:arial, Microsoft YaHei;line-height:2.5rem;font-size:2.0625rem;color:#FFFFFF;font-weight:bold;}
+.redpack_item .box .infos p span em{font-style:normal;font-size:.75rem;font-weight:200;}
+.redpack_item .box .infos p i{ display:inline-block;padding-left:.375rem;line-height:1;font-size:.75rem;font-style:normal;}
+.redpack_item .icon_enter{width:1.75rem;height:1.75rem; display:block; position:absolute;right:1rem;bottom:2.375rem;background:url(//static.facebank.cn/static/wapFront/common/images/coupon/arrow_circle.png) no-repeat center center/100% 100%;}
+.redpack_item .surplus_invalid{width:3.75rem;height:2.40625rem; display:block; text-indent:999rem;line-height:2.40625em;overflow:hidden; position:absolute;top:-.5rem;right:-.5rem;background:url(//static.facebank.cn/static/wapFront/common/images/coupon/status_Invalid.png) no-repeat center center/100% 100%;}
+.redpack_item .detailInfo{display:block;height:auto;overflow:hidden;padding:.75rem 0 .75rem .75rem;padding-bottom:.625rem;line-height:1.25rem;border:1px solid #BCC2CC;border-radius:0 0 .25rem .25rem;border-top:0;}
+.redpack_item .detailInfo p{width:8.90625rem;float:left;height:1.25rem;overflow:hidden;font-size:.625rem;color:#323642;}
+.redpack_item .detailInfo p span{width:3rem;float:left;color:#848999;}
+.redpack_item .detailInfo p:last-child{width:10.90625rem;}
+.redpack_item .detailInfo p:nth-child(2){width:10.90625rem;}
+
+
+
+.coupon_detail{display:block;width:100%;height:100%;left:0;top:0; position: fixed;z-index:101;background:#FFFFFF;
+transition:0.3s;-webkit-transition:0.3s;-moz-transition:0.3s;-o-transition:0.3s}
+.coupon_detail .top{height:2.75rem; text-align:right;}
+.coupon_detail .top .close{width:2rem;height:2rem; display:inline-block;margin:.375rem -.375rem 0 0 ;background:url(//static.facebank.cn/static/wapFront/common/images/coupon/layer_close.png) no-repeat center center/1rem 1rem;}
+.coupon_detail .contents{ position:absolute;left:1rem;top:1rem;right:1rem;bottom:5rem;overflow:auto;overflow-x:hidden;margin:0;}
+.coupon_detail .contents.noFooter{bottom:0;padding-bottom:1rem;}
+.coupon_detail .btn_tpl{ position:absolute;left:1rem;right:1rem;bottom:1rem;display:block;border-radius:1.5rem;line-height:3rem; text-align:center;color:#FFFFFF;font-size:1rem;
+background:url(//static.facebank.cn/static/wapFront/common/images/coupon/btn_bg.png) no-repeat center center/100% 100%
+}
+.coupon_detail .btn_tpl:active{background:url(//static.facebank.cn/static/wapFront/common/images/coupon/btn_bg.png) no-repeat center center/100% 100%}
+
+.coupon_detail .card_item,
+.coupon_detail .card_item .box{height:9rem}
+.coupon_detail .card_item{margin-bottom:1.8rem;margin-top:1rem;}
+.coupon_detail .redpack_item,
+.coupon_detail .redpack_item .box{height:8.2rem}
+.coupon_detail .redpack_item .redpack{height:8.25rem}
+
+.coupon_detail .card_item .box .name{font-size:1.25rem;}
+
+.coupon_detail .title{line-height:3.25rem;color:#323642;font-weight:600;}
+.coupon_detail .title2{line-height:3.5rem;color:#323642;border-bottom:1px solid #E8EAED;margin-bottom:.5625rem;font-weight:bold}
+.coupon_detail .desc{ display:block;line-height:1.3rem;}
+.coupon_detail .desc dl{height:auto;overflow:hidden;padding:.35rem 0;}
+.coupon_detail .desc dl dt{width:4.75rem;color:#848999;font-size:.75rem;float:left;}
+.coupon_detail .desc dl dd{margin-left:4.75rem;color:#323642;font-size:.875rem;}
+
+.coupon_detail .item_box{ display:block;border-bottom:1px solid #E8EAED;margin-bottom:.5625rem;padding-bottom:1rem;}
+.coupon_detail .item_box h2{ display:block;line-height:2.5rem;font-size:1.3125rem;color:#2B313D;font-weight:600;}
+.coupon_detail .item_box h2 span{font-size:.75rem;color:#363B3F;font-weight:200;}
+.coupon_detail .item_box h2 span.status{float:right; white-space:nowrap;font-size:.875rem;}
+.coupon_detail .item_box h2 span.status_1{color:#323642}
+.coupon_detail .item_box h2 span.status_2{color:#F34649}
+.coupon_detail .item_box .cont{ display:block;line-height:1.25rem;font-size:.75rem;color:#BCC2CC}
+
+.coupon_detail .base_info{ display:block;height:auto;overflow:hidden;margin-bottom:1.2rem;}
+.coupon_detail .base_info p{float:left; white-space:nowrap;color:#848999}
+.coupon_detail .base_info p:last-child{float:right; text-align:right}
+.coupon_detail .base_info p em{font-size:.75rem; display:block;line-height:2rem;font-style:normal;}
+.coupon_detail .base_info p span{font-size:1.8125rem;color:#F34649;height:3.15625rem;line-height:1.1;font-weight:bold;}
+.coupon_detail .base_info p span i{font-size:1rem;color:#F34649;font-style:normal;font-weight:bold;}
+.coupon_detail .base_info p:last-child span{color:#323642}
+.coupon_detail .base_info p:last-child span i{color:#848999}
+
+.coupon_detail .card_item .box .infos{bottom:.5rem;}
+.coupon_detail .redpack_item .box .infos p span{font-size:2.5625rem;}
+.coupon_detail .card_item .box .infos p span{font-size:2.25rem;}
+.coupon_detail .card_item .box .infos p{width:50%;}
+
+.coupon_detail .card_item.type_1.invalid .box{color:rgba(255,255,255,.5);}
+.coupon_detail .card_item.type_1.invalid .box .infos p span{color:rgba(255,255,255,1);}
+.coupon_detail .card_item.type_2.invalid .box{color:rgba(255,255,255,.5);}
+.coupon_detail .coupon_detail .card_item.type_2.invalid .box .infos p span{color:rgba(255,255,255,1);}
+.coupon_detail .card_item.type_3.invalid .box{color:rgba(255,255,255,.5);}
+.coupon_detail .card_item.type_3.invalid .box .infos p span{color:rgba(255,255,255,1);}
+
+.emptyRecord{ display: block;border-bottom:1px solid #E8EAED;padding:6.9375rem 0 4rem;font-size:1rem;color:#323642; text-align:center;background:url(//static.facebank.cn/static/wapFront/common/images/coupon/empty_record.png) no-repeat center 1rem/6.625rem auto;}
+.emptyRecord b{line-height:1.5;}
+.emptyRecord span{display: block;font-size:.75rem;color:#363B3F;}

@@ -1,0 +1,53 @@
+.timeDepositConfirm{}
+.timeDepositConfirm .page_box{background:#FFFFFF;}
+.timeDepositConfirm .timeCountdown{width:100%; text-align:center;line-height:2.25rem;color:#F48A12;background:#FEF5E8;margin-bottom:1rem;font-size:.75rem;}
+
+
+.timeDepositConfirm .matchInfo{height:7.0625rem;margin:0 1rem;padding-top:1.6875rem;background:url(~assets/images/bg_linner_1.png) no-repeat center center/100% 100%;box-shadow: 0 0 .3125rem 0 rgba(230,200,153,0.48);border-radius: .25rem;margin:0 1rem;color:#AD8B57;color:#FFFFFF; text-align:center;margin-bottom:.625rem;font-weight:600;}
+.timeDepositConfirm .matchInfo .p1{font-size:.75rem;line-height:.875rem;margin-bottom:.75rem;}
+.timeDepositConfirm .matchInfo .p2{font-size:2.0625rem;line-height:2.25rem;margin-bottom:.875rem;}
+.timeDepositConfirm .matchInfo .p3{font-size:.75rem;line-height:.875rem;margin-bottom:.75rem;}
+.timeDepositConfirm .matchInfo .p3 span{font-size:1rem; vertical-align: middle;background:url(~assets/images/icon_i_white.png) no-repeat center right/auto .75rem;padding-right:.9375rem;}
+
+.timeDepositConfirm .matchInfoList{line-height:2.25rem;background:#FFFFFF;padding:0 1rem .625rem 1rem;border-bottom:.625rem solid #F2F4F8}
+.timeDepositConfirm .matchInfoList dl{height:auto;overflow:hidden;}
+.timeDepositConfirm .matchInfoList dl dt{float:left; white-space:nowrap;color:#848999;}
+.timeDepositConfirm .matchInfoList dl dd{float:right; white-space:nowrap;color:#2b313d;}
+
+.timeDepositConfirm .matchLoanList{ display:block;background:#FFFFFF;color:#848999;}
+.timeDepositConfirm .matchLoanList h2{ display:block;box-shadow: 0 1px 0 0 #DFE3EB;line-height:3.25rem;margin-left:1rem;font-size:1rem;color:#2B313D;}
+.timeDepositConfirm .matchLoanList ul{display:block;padding-left:1rem;}
+.timeDepositConfirm .matchLoanList ul li{box-shadow: 0 1px 0 0 #DFE3EB;padding-bottom:.9375rem;}
+.timeDepositConfirm .matchLoanList ul li .num{line-height:2.8125rem;font-size:.875rem;margin-bottom:.5rem;}
+.timeDepositConfirm .matchLoanList ul li .cont{height:auto;overflow:hidden;}
+.timeDepositConfirm .matchLoanList ul li .cont p{width:33%;float:left;font-size:.75rem;line-height:1.125rem;}
+.timeDepositConfirm .matchLoanList ul li .cont p span{display: block;font-size:1.125rem;color:#2B313D;margin-bottom:.4rem;}
+.timeDepositConfirm .matchLoanList ul li .cont .p1{width:33%;float:left;}
+.timeDepositConfirm .matchLoanList ul li .cont .p2{width:41%;float:left;}
+.timeDepositConfirm .matchLoanList ul li .cont .p3{width:26%;float:left;}
+.timeDepositConfirm .matchLoanList i.iconfont{ position: absolute;right:1rem;display: block;z-index:3;font-size:1.0625rem;color:#838A94;}
+.timeDepositConfirm .matchLoanList i.icon-ic_rightarrow{float:right;margin:0;margin-top:.875rem;font-size:.875rem;color:#FFFFFF; content:' ';background:url(~assets/wapFront/common/img/arrow_r_new.png) no-repeat center right/auto .75rem;}
+.timeDepositConfirm .matchCount{display:block;line-height:3.25rem;font-size:1rem; text-align:left; position: relative;color:#2B313D;background:#FFFFFF;padding:0 1rem;font-weight:600;}
+.timeDepositConfirm .matchCount span{float:right; white-space: nowrap;font-weight:400;}
+.timeDepositConfirm .matchCount span i{color:#CED2D8;}
+.timeDepositConfirm .matchLoanList .viewMore i.icon-ic_rightarrow{margin-top:.2rem;top:0}
+
+.timeDepositConfirm .profit_title{display:block;padding:.5265rem 0 .25rem;text-align:center;line-height:1rem;color:#2B313D;font-size:.875rem;}
+.timeDepositConfirm .profit_title p.money{font-size:1.375rem;line-height:1.6875rem;padding-top:.3125rem;font-weight:600;}
+.timeDepositConfirm .layer_profit_list{line-height:2.25rem;background:#FFFFFF;font-size:.875rem;}
+.timeDepositConfirm .layer_profit_list dl{height:auto;overflow:hidden;line-height:3rem;border-top:1px solid #DFE3EB;font-size:.875rem;}
+.timeDepositConfirm .layer_profit_list dl dt{float:left; white-space:nowrap;color:#2B313D;}
+.timeDepositConfirm .layer_profit_list dl dt i{color:#CED2D8 !important;;font-size:.875rem; display: inline-block;vertical-align: middle;}
+.timeDepositConfirm .layer_profit_list dl dt p{float:left; white-space: nowrap;}
+.timeDepositConfirm .layer_profit_list dl dt span{float:left; white-space: nowrap;display:block;line-height:1.125rem;padding:0 .3125rem;color:#F0787C;font-size:.75rem;background:#FFF2F3;margin-left:.5rem;border-radius:1.125rem;margin-top:1.05rem;}
+.timeDepositConfirm .layer_profit_list dl dd{float:right; white-space:nowrap;color:#2b313d;font-weight:bold;}
+.timeDepositConfirm .layer_profit_list dl dd span{font-weight:normal;}
+
+.timeDepositConfirm .depositDesc{display:block;padding:.875rem 1.125rem 5.875rem 1.125rem;line-height:1.25rem;font-size:.75rem;color:#848999;}
+.timeDepositConfirm .depositDesc span,
+.timeDepositConfirm .depositDesc a{color:#f0484e}
+.timeDepositConfirm .depositDesc i{ font-style: normal;color:#2B313D}
+
+.timeDepositConfirm .reload_box{width:17.5rem;height:15.5625rem; position: absolute;left:50%;margin-left:-8.75rem;top:22%;z-index:101;background:#FFFFFF;border-radius:.5rem;}
+.timeDepositConfirm .reload_box .animation{width:6rem;height:6rem;margin:0 auto; display: block;padding-top:4rem;}
+.timeDepositConfirm .reload_box .font{text-align:center;color:#83899B;font-size:.75rem;margin-top:-1rem;}

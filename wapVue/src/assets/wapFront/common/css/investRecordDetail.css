@@ -1,0 +1,149 @@
+
+.investRecordDetail{background:#EFF1F4;}
+
+.switch_tab{display:block;line-height:2.75rem; text-align:center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom:.46875rem;background:#FFFFFF;font-size:1rem;font-weight:600;}
+.switch_tab ul{width:66.66%;margin:0 auto;}
+.switch_tab li{width:50%;float:left;color:#2b313d}
+.switch_tab li.current{color:#f0484e; position:relative;}
+.switch_tab li.current:after{display:block;content: ' ';background:#F0484E;position: absolute;left: 50%;margin-left:-.5rem;;width:1rem;height:.125rem;bottom:0.28125rem;border-radius:.0625rem;}
+
+.investRecordDetail .item_box{ display:block;padding-left:1rem;background:#FFFFFF;margin-bottom:.46875rem;}
+.investRecordDetail .item_box .title{border-bottom:1px solid #DFE3EB;line-height:3;font-size:0.9375rem;padding-top:.5rem;padding-right:1rem;}
+.investRecordDetail .item_box .title span{float:right; white-space: nowrap;font-size:.875rem;}
+.investRecordDetail .item_box .title .state_0{color:#2970FF}
+.investRecordDetail .item_box .title .state_1{color:#F86E39}
+.investRecordDetail .item_box .title .state_2{color:#717171}
+.investRecordDetail .item_box:first-child .title{padding-top:0;}
+.investRecordDetail .item_box .title2{background:url(~assets/wapFront/common/img/arrow_r_new.png) no-repeat center right/auto .6875rem;margin-right:.9375rem;border:0;}
+.investRecordDetail .item_box .item_dl{ display:block;padding:1.40625rem .9375rem 1rem 0;}
+.investRecordDetail .item_box .item_dl dl{line-height:1.125;margin-bottom:1.5rem;height:auto;overflow:hidden;font-size:.875rem;}
+.investRecordDetail .item_box .item_dl dl dt{width:5.5625rem;float:left;color:#848999}
+.investRecordDetail .item_box .item_dl dl dd{margin-left:5.5625rem;color:#2b313d;word-break: break-all;}
+.investRecordDetail .item_box .item_dl dl dd small{ display:block;font-size:.75rem;color:#848999;}
+.investRecordDetail .item_box .item_dl dl dd .small{ margin-top: 0.2rem;color:#848999;font-size: 0.5rem;display: block;}
+
+.investRecordDetail .item_box .item_dl dl dd a{color:#f0484e}
+.investRecordDetail .item_box .item_dl dl dd.state_0{color:#2970FF}
+.investRecordDetail .item_box .item_dl dl dd.state_1{color:#F86E39}
+.investRecordDetail .item_box .item_dl dl dd.state_2{color:#717171}
+.investRecordDetail .item_box .item_dl dl dd i.iconfont{color:#848999;}
+.investRecordDetail .item_box .item_dl dl dd span.gift{ display:inline-block;padding:0 .21875rem;font-size:.75rem;line-height:.9375rem;color:#f0484e;border:1px solid #f0484e;margin-left:.625rem;}
+.investRecordDetail .item_box .item_dl.style2 dl dt{width:6.125rem;}
+.investRecordDetail .item_box .item_dl.style2 dl dd{margin-left:7rem;}
+.investRecordDetail .item_box .item_dl.style3{padding-top:1.25rem;padding-bottom:0;padding-right:0;border-top:1px solid #DFE3EB;height:auto;overflow:hidden;}
+.investRecordDetail .item_box .item_dl.style4{padding-top:1.25rem;padding-bottom:0;padding-right:0;margin-top:.625rem;height:auto;overflow:hidden;}
+.investRecordDetail .item_box .item_dl dl dd strong{font-family:Arial, Microsoft YaHei;}
+
+.investRecordDetail .item_box .item_dl dl dd span.icon_warn{ display:inline-block;padding-right:1.78125rem;background:url(~assets/wapFront/common/img/bicon_warn.png) no-repeat right center/auto 1.25rem;}
+.investRecordDetail .item_box .progress_box{padding:1.6875rem 1rem 0 0}
+
+.investRecordDetail .item_box .progress_bar{ display:block; position:relative;padding:0;padding-bottom:.75rem;}
+.investRecordDetail .item_box .progress_bar .line{display:block;height:.3125rem;background:#EEEEF2;overflow:hidden;position:absolute;top:0.1875rem;left:0;width:100%;}
+.investRecordDetail .item_box .progress_bar .bar{width:0%;min-width:.3125rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height:.75rem; position:absolute;left:0;top:0;flex-wrap: nowrap}
+.investRecordDetail .item_box .progress_bar .bar .line{background:#f0484e;}
+.investRecordDetail .item_box .progress_bar .bar .dian{width:.3125rem;height:.3125rem; position:absolute;right:0;top:0rem;background:#FFFFFF;border:0.1875rem solid #f0484e;border-radius:50%;}
+.investRecordDetail .item_box .progress_bar .text{ display:block;height:auto;overflow:hidden;font-size:.875rem;line-height:2.78; white-space:nowrap;padding-top:.75rem;}
+.investRecordDetail .item_box .progress_bar .text span{float:right;}
+
+.investRecordDetail .item_box .item_title{color:#2b313d;font-weight:bold; display:block;font-size:.875rem;padding-bottom:1.25rem;height:auto;overflow:hidden;padding-right:.9375rem;color:#2B313D;line-height:1.1rem;}
+.investRecordDetail .item_box .item_title span{float:right; white-space: nowrap;font-size:.75rem;color:#323642;font-weight:400;}
+.investRecordDetail .item_box ul{ display:block;height:auto;overflow:hidden;font-size:.75rem;margin-bottom:1.25rem;line-height:1.5rem;color:#848899;margin-right:.9375rem;}
+.investRecordDetail .item_box ul.line{border-bottom:1px solid #DFE3EB;padding-bottom:1.125rem;}
+.investRecordDetail .item_box ul li{min-height:1.5rem;width:50%;float:left;}
+.investRecordDetail .item_box .tips_area{line-height:1.125rem;padding:.6875rem 0;border-top:1px solid #DFE3EB;color:#848999;font-size:.75rem;padding-right:.9375rem;}
+.investRecordDetail .item_box .tips_area span{color:#F0484E}
+.investRecordDetail .item_box .tips_area.other{color:#F48A12}
+
+
+.investRecordDetail .order_info{ display:block;padding:1.5rem 1rem;height:auto;overflow:hidden;background:#FFFFFF; position:relative;}
+.investRecordDetail h6{display:block;height:3.25rem;line-height:3.25rem;color:#2B313D;font-size:1.125rem;font-weight:bold;background:#FFFFFF;padding:0 1rem;}
+.investRecordDetail .order_info p{ display:block;float:left; white-space:nowrap;margin-right:2rem;}
+.investRecordDetail .order_info p i{ display:block;font-style:normal;font-size:.75rem;color:#848899;padding-top:.4rem;}
+.investRecordDetail .order_info p span{line-height:1.1rem;height:1.1rem;overflow:hidden; display:block; white-space: nowrap;padding-top:.5rem;font-size:1.125rem;font-weight:bold;color:#2B313D;}
+.investRecordDetail .order_info p span em{ font-style:normal;font-weight:400;font-size:.875rem;}
+.investRecordDetail .order_info p:first-child span{height:1.5rem;padding-top:.3rem;color:#F0484E;font-size:2rem;}
+.investRecordDetail .order_info p:first-child span em{padding-top:.1rem;}
+.investRecordDetail .order_info p:first-child i{padding-top:.2rem;}
+.investRecordDetail .order_info .btns{width:3.75rem;height:2rem;border:1px solid #F0484E;border-radius:1rem;color:#F0484E;font-size:1rem;line-height:2rem; text-align:center; position: absolute;right:1rem;top:50%;margin-top:-1rem;}
+
+
+.investRecordDetail .layer_profit_list{line-height:2.25rem;background:#FFFFFF;font-size:.875rem;}
+.investRecordDetail .layer_profit_list dl{height:auto;overflow:hidden;line-height:3rem;border-top:1px solid #DFE3EB;font-size:.875rem;}
+.investRecordDetail .layer_profit_list dl:first-child{border-top:0;}
+.investRecordDetail .layer_profit_list dl dt{float:left; white-space:nowrap;color:#2B313D;}
+.investRecordDetail .layer_profit_list dl dt i{color:#CED2D8 !important;;font-size:.875rem; display: inline-block;vertical-align: middle;}
+.investRecordDetail .layer_profit_list dl dt p{float:left; white-space: nowrap;}
+.investRecordDetail .layer_profit_list dl dt span{float:left; white-space: nowrap;display:block;padding: 0 0.40625rem;line-height:1.25rem;color:#F0787C;font-size:.75rem;background:#FFF2F3;margin-left:.5rem;border-radius:1.125rem;margin-top:1.05rem;}
+.investRecordDetail .layer_profit_list dl dd{float:right; white-space:nowrap;color:#2b313d;font-weight:bold;}
+.investRecordDetail .layer_profit_list dl dd span{font-weight:normal;}
+
+
+
+
+
+
+.investRecordDetail .list-type-1{ display:block;background:#FFFFFF;}
+.investRecordDetail .list-type-1 li{display:block;margin-left:1rem;padding-right:1rem;border-bottom:1px solid #F1F1F1;padding:.5rem 1rem 1.2rem 0;}
+.investRecordDetail .list-type-1 li .info{ display:block;;height:auto;overflow:hidden;line-height:2rem;margin-bottom:.875rem;font-size:0.875rem;color:#2b313d;}
+.investRecordDetail .list-type-1 li .info span{float:right; white-space:nowrap;font-size:.9375rem;line-height:2rem;}
+.investRecordDetail .list-type-1 li .info span.state_1{color:#3E87FF}
+.investRecordDetail .list-type-1 li .info span.state_2{color:#B8B8B8}
+.investRecordDetail .list-type-1 li .info span.state_3{color:#B8B8B8}
+
+.investRecordDetail .list-type-1 li .user_info{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;}
+.investRecordDetail .list-type-1 li .user_info p{width:33.33%; text-align:center;line-heigth:1.5;font-size:.9375rem;color:#2b313d}
+.investRecordDetail .list-type-1 li .user_info p small{font-size:.6875rem; display:block;padding-top:0.46875rem;color:#848999;}
+.investRecordDetail .list-type-1 li .user_info p:last-child{ text-align:right;}
+.investRecordDetail .list-type-1 li .user_info p:first-child{ text-align:left;}
+.investRecordDetail .more{margin: 2rem 0;text-align: center;color: #848999;font-size: 0.85rem;height: 2rem;line-height: 2rem;}
+
+
+
+
+
+.investRecordDetail .reward_list_box{line-height:2.25rem;background:#FFFFFF;padding:0 1rem 0 1rem;margin-bottom:.625rem;font-size:.875rem;}
+.investRecordDetail .reward_list_box dl{height:auto;overflow:hidden;line-height:3rem;border-bottom:1px solid #F2F4F8}
+.investRecordDetail .reward_list_box dl:last-child{border:0;}
+.investRecordDetail .reward_list_box dl dt{float:left; white-space:nowrap;color:#2B313D;}
+.investRecordDetail .reward_list_box dl dt i{color:#CED2D8 !important;;font-size:.875rem; display: inline-block;vertical-align: middle;}
+.investRecordDetail .reward_list_box dl dt p{float:left; white-space: nowrap;}
+.investRecordDetail .reward_list_box dl dt span{float:left; white-space: nowrap;display:block;line-height:1.125rem;padding:0 .3125rem;color:#F0787C;font-size:.75rem;background:#FFF2F3;margin-left:.5rem;border-radius:1.125rem;margin-top:0.9375rem;}
+
+.investRecordDetail .reward_list_box dl dd{float:right; white-space:nowrap;color:#2b313d;font-weight:bold;}
+.investRecordDetail .reward_list_box dl dd span{font-size:.7rem;font-weight:normal;}
+.investRecordDetail .reward_list_box dl dd.sended{padding-left:1.0625rem;background:url(~assets/images/icon_pao.png) no-repeat center left /auto .875rem;}
+.investRecordDetail .reward_list_box .profit_count{display:block;line-height:3.25rem;height:auto;overflow:hidden;font-size:1rem;color:#2b313d;font-weight:bold;}
+.investRecordDetail .reward_list_box .profit_count span{float:right; white-space: nowrap;font-weight:bold;font-family:Arial, 'Microsoft YaHei'}
+.investRecordDetail .reward_list_box .profit_count span i{font-style:normal;font-size:.75rem;}
+
+.wapPos .p-title{margin: 0rem auto;color: #2b313d;font-size: 1.1rem;text-align: center;}
+.wapPos .p-title img{width: 37%; margin-top: -3.2rem;}
+.wapPos .div-value{width: 90%;margin: 0 auto 1rem;padding-top: 1rem;}
+.wapPos .div-value p{margin-bottom: 0.6rem;}
+.wapPos .div-value p .span-right{float: right;}
+.wapPos .div-value p .span-right font{color: #f0484e;}
+
+
+.dynamic_box{display:block; position: absolute;width:100%;left:0;top:0;bottom:0;overflow:auto;overflow-x:hidden;}
+.dynamic_box ul{display:block;}
+
+.loadMoreData{ display:block;padding:.25rem 0 .875rem;font-size:.875rem;line-height:1.25rem; text-align:center;color:#848999;}
+.loadMoreData .animation{width:1.25rem;height:1.25rem; display: inline-block;; vertical-align: middle}
+.loadMoreData .font{display: inline-block;line-height:1.25rem; vertical-align: middle}
+.loadMoreData .reload{width:1.75rem;height:1.75rem;margin:0 auto;margin-top:.312rem; display:block;background:url(~assets/images/reload.png) no-repeat center center/100% 100%;}
+
+.airList{position: absolute;top: 3.5rem;bottom: 0;overflow: auto;width: 100%;max-width: 700px;}

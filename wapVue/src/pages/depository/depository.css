@@ -1,0 +1,8 @@
+.top{border-bottom:.625rem solid #F2F4F8}
+.xw_logo{width:12.09375rem;height:4.40625rem;margin:0 auto;padding-top:1.5rem;}
+.xw_logo img{width:100%;}
+.xw_status_font{ text-align:center;color:#848999;line-height:3.90625rem;margin-bottom:.25rem;font-size:1rem;}
+
+#depository .menu_item{margin-bottom:0;}
+#depository .menu_item a:last-child p{border-bottom:1px solid #DFE3EB}
+#depository .top .menu_item a p{border-bottom:0;border-top:1px solid #DFE3EB}

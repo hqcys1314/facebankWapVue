@@ -1,0 +1,275 @@
+input::-webkit-input-placeholder{font-size: .875rem;line-height:1rem;padding:.75rem 0;vertical-align: middle;}
+input:-webkit-input-placeholder{font-size: .875rem;line-height:1rem;padding:.75rem 0;vertical-align: middle;}
+input:-moz-placeholder{font-size: .875rem;line-height:1rem;padding:.75rem 0;vertical-align: middle;}
+input::-moz-placeholder{font-size: .875rem;line-height:1rem;padding:.75rem 0;vertical-align: middle;}
+input:-ms-input-placeholder{font-size: .875rem;line-height:1rem;padding:.75rem 0;vertical-align: middle;}
+.inv-confirm-detail {
+  color: #2b313d;
+  font-size: 0.813rem;
+  margin: 1rem 5%;
+}
+.inv-confirm-detail .ketou {
+  margin-bottom: 0.2rem;
+}
+.inv-confirm-detail .ketou .span1 {
+  color: #848999;
+  margin-right: 0.3rem;
+}
+.inv-confirm-detail .yuE .span1 {
+  color: #848999;
+  margin-right: 0.3rem;
+}
+.inv-confirm-detail .yuE a {
+  color:#f0484e;
+  float: right;
+}
+.inv-confirm-money {
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 4.3rem;
+}
+.inv-confirm-money .span1 {
+  margin-left: 5%;
+  float: left;
+  font-size: 1.125rem;
+  line-height: 4.3rem;
+}
+.inv-confirm-money input {
+    background:none;
+  width: 73%;
+  float: left;
+  font-size: 0.875rem;
+  margin-top: 0.9rem;
+  line-height:2.5rem;
+  height:2.5rem;
+  -moz-box-sizing: border-box;box-sizing: border-box;
+  margin-left: 2%;    color: #252525;
+}
+.inv-confirm-money .span-btn {
+  color:#f0484e;
+  border: 1px #f0484e solid;
+  float: right;
+  margin-right: 5%;
+  border-radius: 3px;
+  font-size: 0.875rem;
+  margin-top: 1.5rem;
+  padding: 0.1rem 0.3rem;
+}
+.redPacket {
+  width: 100%;
+  height: 3.125rem;
+
+  background-color: #fff;
+  border-bottom: #eaeaea 1px solid;
+  border-top: #eaeaea 1px solid;
+  font-size: 0.875rem;
+}
+.redPacket span {
+
+}
+.redPacket .span1 {
+  margin-left: 5%;line-height: 3.125rem;
+  margin-right: 0.5rem;
+}
+.redPacket .span2 {
+  background-color: #f0484e;
+  font-size: 0.813rem;
+  border-radius: 50%;
+  width: 1.2rem;
+  height: 1.2rem;
+  color: #ffffff;
+  text-align: center;
+  margin: 0.9rem 0.2rem 0 0.2rem;
+  line-height: 1.2rem;
+}
+.redPacket .span3 {
+  color: #848999;line-height: 3.125rem;
+}
+.redPacket .span6 {
+  color:#f0484e;line-height: 3.125rem;
+}
+.redPacket .span4 {
+  font-size: 0.75rem;margin-top:0.9rem; padding: 0.1rem 0.2rem;border-radius: 5px;
+  text-align: right;border:1px #f0484e solid;color:#f0484e;
+  float: right;
+}
+
+.redPacket .span5 {
+  width: 1rem;line-height: 3.125rem;
+  float: right;
+  margin-right: 5%;
+}
+.redPacket .span7{line-height: 3.125rem;
+}
+.redPacket .span5 img {
+  width: 100%;
+  vertical-align: middle;
+}
+.inv-confirm-btn {
+  text-align: center;
+  margin-top: 3rem;
+}
+.inv-confirm-btn input {
+  width: 90%;
+  margin: 0 auto 1rem;
+
+}
+#directInvestConfirm .inv-confirm-xieyi {
+  font-size: 0.688rem;
+  margin-bottom: 1.188rem;
+}
+#directInvestConfirm .inv-confirm-desc{ display:block;line-height:1.25rem;padding:1.25rem;padding-top:.25rem;color:#848999;font-size:.75rem;}
+#directInvestConfirm .inv-confirm-desc span{color:#2b313d}
+#directInvestConfirm .inv-confirm-desc a{color:#F0484E;}
+#directInvestConfirm .inv-confirm-xieyi input {
+  vertical-align: -2px;
+  margin-right: 4px;
+}
+#directInvestConfirm .inv-confirm-xieyi .span1 a {
+  color:#f0484e;
+}
+#directInvestConfirm .inv-confirm-xieyi .span1{
+  float: left;line-height: 1.125rem;
+    width: 90%;
+    margin-left: 0.3rem;
+
+}
+.sameMoneyTip{color:#848999;font-size: 0.75rem;width: 88%;margin: 0 auto 1rem;}
+input[type=number]:disabled {   -webkit-text-fill-color: rgba(0, 0, 0, 1);   -webkit-opacity: 1;opacity: 1;}
+.redbagTk {
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  z-index: 22;
+  max-width: 600px;
+  height: 316px;
+  overflow-y: scroll;
+}
+.redbagTk .title {
+  margin: 0 auto 10px;
+  width: 80%;
+  padding-top: 15px;
+}
+.redbagTk .title img {
+  width: 100%;
+}
+.redbagTk .rb_com {
+  margin: 0 auto 10px;
+  width: 90%;
+  overflow: hidden;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.redbagTk .pos{position: relative;}
+.redbagTk .rb_com .left {
+  float: left;
+  width: 30%;
+  margin-left: 3px;
+  margin-top: 2px;
+  text-align: center;
+  line-height: 46px;
+  height: 46px;
+  font-size: 1.2em;
+}
+.redbagTk .rb_com .left font {
+  font-size: 0.7em;
+}
+.redbagTk .rb_com .center {
+  float: left;
+  width: 38%;
+  font-size: 0.8em;
+  padding-left: 5%;
+  height: 50px;
+}
+.redbagTk .rb_com .center .p1 {
+  margin-top: 8px;
+}
+.redbagTk .rb_com .right {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+.redbagTk .rb_com .right input{
+  width: 100%;
+  position: absolute;
+  height: 45px;
+  left: 0;
+  top: 0;
+  z-index: 19;
+  opacity: 0;
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  filter: alpha(opacity=0);
+}
+.redbagTk .rb_com .right input:checked + .btn-show {
+  background-image: url("~assets/wapFront/autoInvest/img/xuanzhong.png");
+}
+.redbagTk .rb_com .right .btn-show{
+   background-image: url("~assets/wapFront/autoInvest/img/weixuanzhong.png");
+   background-size: 100% 100%;display: block;
+   width: 30px;height: 30px;
+   margin-left: 30px;position: absolute;top: 10px;
+}
+
+.redbagTk .rb_jiaxi {
+  background-image: url("//static.facebank.cn/static/wapFront/autoInvest/img/jiaxi_bg.png");
+}
+.redbagTk .rb_jiaxi .left {
+  color: #ed7373;
+  background-color: #fef1f1;
+}
+.redbagTk .rb_jiaxi .center .p1 {
+  color: #ed7373;
+}
+.redbagTk .rb_fanxian {
+  background-image: url("//static.facebank.cn/static/wapFront/autoInvest/img/fanxian_bg.png");
+}
+.redbagTk .rb_fanxian .left {
+  color: #fb9d41;
+  background-color: #fef8f0;
+}
+.redbagTk .rb_fanxian .center .p1 {
+  color: #fb9d41;
+}
+.redbagTk .rb_wu {
+  background-image: url("//static.facebank.cn/static/wapFront/autoInvest/img/wu_bg.png");
+}
+.redbagTk .rb_wu div.left {
+  font-size: 0.9em;
+}
+.expectedReturn{
+   font-size: 0.75rem;padding-left: 5%;color:#f0484e;background-color: #fefcec;height: 2rem;line-height: 2rem;margin-bottom: 0.8rem;
+}
+.expectedReturn .span2{width: 1rem;vertical-align: middle;margin-left: 0.2rem;}
+.wapPos .p-title{margin: 0rem auto;color: #2b313d;font-size: 1.1rem;text-align: center;}
+.wapPos .p-title img{width: 37%; margin-top: -3.2rem;}
+.wapPos .div-value{width: 90%;margin: 0 auto 1rem;padding-top: 1rem;}
+.wapPos .div-value p{margin-bottom: 0.6rem;}
+.wapPos .div-value p .span-right{float: right;}
+.wapPos .div-value p .span-right font{color: #f0484e;}
+.wapPos .cash{margin: 0rem auto 1.5rem;text-align: center;}
+.wapPos .cash .span1{color: #876834;font-size: 2rem;}
+.wapPos .cash .span2{color: #876834;font-size: 1rem;}
+.wapPos .cash p{font-size: 0.75rem;color:#848999;}
+input.inputInvestAmount[disabled]{
+    border:0;;
+    background-color:#FFFFFF;
+    color:#252525;
+}
+.inv-confirm-xieyi{margin:0 5%;}
+.auto-head {
+    width: 100%;    position: relative;
+    text-align: center;
+    font-size: 0.75rem;
+    color: #ffffff;
+    padding: 0.3rem 0 0.688rem;
+    background-color:#1c1b21;
+}
+.auto-head span{color:#fa9b5b;}
+.auto-head a{    position: absolute;
+    right: 1rem;
+    color: #fff;
+    text-decoration: underline;}

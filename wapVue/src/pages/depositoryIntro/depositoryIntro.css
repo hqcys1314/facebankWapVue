@@ -1,0 +1,34 @@
+.depositoryIntro{background:#FFFFFF;height:auto;overflow:hidden; display:block;font-size: .875rem;}
+.depositoryIntro .font_close{width:3.125rem;height:1.875rem; position: fixed;right:.75rem;top:1.25rem;background:url(//static.facebank.cn/static/wapFront/depository/img/1minute/font_close.png) no-repeat center center/auto 100%;}
+.depositoryIntro .img_box{width:100%;height:auto;overflow:hidden;}
+.depositoryIntro .img_box2{margin-bottom:1rem;}
+.depositoryIntro .img_box img{width:100%;float:left;clear:both;}
+.depositoryIntro .blank2rem{height:2rem;}
+.depositoryIntro .titles{width:100%; text-align:center;margin-bottom:1rem;height:2.375rem;overflow:hidden;background:no-repeat center center/auto 100%;}
+.depositoryIntro .titles.title_1{background-image:url(//static.facebank.cn/static/wapFront/depository/img/1minute/title_1.jpg)}
+.depositoryIntro .titles.title_2{background-image:url(//static.facebank.cn/static/wapFront/depository/img/1minute/title_2.jpg)}
+.depositoryIntro .titles.title_3{background-image:url(//static.facebank.cn/static/wapFront/depository/img/1minute/title_3.jpg)}
+.depositoryIntro .titles.title_4{background-image:url(//static.facebank.cn/static/wapFront/depository/img/1minute/title_4.jpg);margin-bottom:.8125rem;}
+
+.depositoryIntro .contents{padding:0 1.40625rem;line-height:1.25rem;font-size:.875rem;color:#1c1716}
+
+.depositoryIntro .link_box{padding:.5625rem 0 1rem;margin:0 1.09375rem;}
+.depositoryIntro .link_box a{ display:block;margin-bottom:.75rem;height:auto;overflow:hidden;}
+.depositoryIntro .link_box a img{width:100%;float:left;clear:both;}
+
+.depositoryIntro .ask_box{ display:block;padding:0 1.09375rem;}
+.depositoryIntro .ask_box2{margin-bottom:2.25rem;}
+.depositoryIntro .ask_box dl{height:auto;overflow:hidden;margin-bottom:.5rem;}
+.depositoryIntro .ask_box dl dt{width:1.5rem;height:1.5rem;background:no-repeat center center/100% 100%;}
+.depositoryIntro .ask_box dl dd{padding:.625rem 1rem;color:#848999;line-height:1.25rem;margin:.75rem 2rem;margin-bottom:0;}
+.depositoryIntro .ask_box dl.quest dt{float:left;background-image:url(//static.facebank.cn/static/wapFront/depository/img/1minute/ask_q.jpg)}
+.depositoryIntro .ask_box dl.answer dt{float:right;background-image:url(//static.facebank.cn/static/wapFront/depository/img/1minute/ask_a.jpg)}
+.depositoryIntro .ask_box dl.quest dd{background:#FFEBEA;border-radius:0 .625rem .625rem .625rem}
+.depositoryIntro .ask_box dl.answer dd{background:#E6EDFD;border-radius:.625rem 0 .625rem .625rem}
+.depositoryIntro .ask_box .view_more{color:#f05847;line-height:2.375rem; text-align:center; display:block; text-decoration:none;margin-bottom:1.75rem;}
+
+.depositoryIntro .btn_tpls{width:17.75rem;margin:0 auto;box-shadow:0 0 .625rem rgba(189, 66, 30, .35);margin:0 auto 1.5625rem auto;}
+.depositoryIntro .stitle{width:100%; text-align:center;margin-bottom:.5rem;height:1.0625rem;overflow:hidden;background:no-repeat center center/auto 100%;}
+.depositoryIntro .stitle.stitle_1{background-image:url(//static.facebank.cn/static/wapFront/depository/img/1minute/qa_1.jpg)}
+.depositoryIntro .stitle.stitle_2{background-image:url(//static.facebank.cn/static/wapFront/depository/img/1minute/qa_2.jpg)}
+.depositoryIntro .stitle.stitle_3{background-image:url(//static.facebank.cn/static/wapFront/depository/img/1minute/qa_3.jpg)}

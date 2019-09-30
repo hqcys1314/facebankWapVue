@@ -1,0 +1,46 @@
+.page_content{ position:absolute;left:0;top:0;width:100%;background:#FFFFFF;overflow:auto;overflow-x:hidden;bottom:3.5625rem;-webkit-overflow-scrolling: touch;z-index:1;}
+.top_active{min-height:15.625rem;width:100%; position:relative;z-index:1;}
+.top_active .background{ position:relative;z-index:1;width:100%;height:auto;}
+.top_active .front{width:100%; position: absolute;top:0;left:0;z-index:2;}
+
+.top_active .backJson{width:100%;height:auto; position:relative;left:0;top:0;z-index:1;}
+.top_active .backJsonLink{ display:block;width:100%;height:100%; position: absolute;left:0;top:0;z-index:2;}
+.top_active .frontJson{width:100%;height:15.625rem; position:absolute;left:0;top:0;z-index:3;}
+.top_active .frontJsonLink{ display:block;width:100%;height:15.625rem; position: absolute;left:0;top:0;z-index:4;}
+
+
+.header{ display:block; position:absolute;;left:0;width:100%;top:0;height:5.125rem;z-index:2;min-height:2.75rem;overflow:hidden;}
+.header .logo{display:block; position:absolute;left:0;top:0;width:100%;height:100%;background:url(//static.facebank.cn/static/wapFront/home/images/logo.png?v=1) no-repeat 1rem center/auto 28%;}
+.header .background{height:100%;background:#F0484E;width:100%; opacity: 0; position: relative;}
+
+
+.notice{display:block;margin:1rem;margin-top:.1875rem;height:1.125rem;overflow:hidden;line-height:1.125rem;padding-left:3.59375rem;background:url(//static.facebank.cn/static/wapFront/home/images/notice.png) no-repeat center left/auto .6875rem;}
+.notice li{ display:block;line-height:1.125rem;color:#848899;font-size:.75rem;}
+
+.active_box{ display:block;height:auto;overflow:hidden;padding:0 0 1.25rem 1rem;border-bottom:.625rem solid #F6F6F6;}
+.active_box ul{height:4.8125rem;overflow:hidden;}
+.active_box li{width:10.34375rem;height:4.8125rem;float:left;margin-right:.75rem;overflow:hidden;}
+.active_box li img{width:100%;}
+
+.banner_box{margin:0 1rem;height:5rem;;margin-top:1.25rem;margin-bottom:.625rem;}
+
+.tools_box{ display:block;margin:0 1rem;padding-top:1.125rem}
+.tools_box h2{ display:block;margin-bottom:1.125rem;line-height:1;font-size:1.125rem;font-weight:bold;color:#323642;padding-left:.9375rem;background:url(//static.facebank.cn/static/wapFront/home/images/title_img.gif) no-repeat center left/auto 100%;}
+
+.tools_box ul{display:block;height:auto;overflow:hidden;padding:0;margin-bottom:1.09375rem;}
+.tools_box li{width:10.34375rem;height:5.625rem;float:left;margin-right:.75rem;overflow:hidden;}
+.tools_box li img{width:100%;}
+.tools_box li:last-child{margin-right:0;}
+
+.news_list{ display:block;margin:0 1rem;margin-bottom:1.25rem;}
+.news_list li{ display:block;line-height:2.0625rem;padding-left:1rem;background:url(//static.facebank.cn/static/wapFront/home/images/dian.png) no-repeat center left/auto 100%;}
+.news_list li span{float:right; white-space: nowrap;color:#BCC2CC;font-size:.75rem;}
+.news_list li a{color:#323642; display:block;font-size:.875rem;}
+
+.feedback{margin:0 1rem;height:auto;overflow:hidden;;}
+.feedback img{width:100%;float:left;clear:both;}
+
+.home_footer{ display:block;padding:1.5rem;font-size:.875rem; text-align:center;color:#6FCCAD;}
+.appLoadBottom{text-align: center;background-color: #ffffff;margin-top: 0.75rem;padding: 1.5rem 0;}
+.appLoadBottom .p1{color: #6fccad;font-size: 0.875rem;margin-bottom: 0.5rem;}
+.appLoadBottom .p2{color: #8d91a0;font-size: 0.75rem;display: block;}

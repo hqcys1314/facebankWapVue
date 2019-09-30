@@ -1,0 +1,41 @@
+@import '~assets/css/variables';
+@import '~assets/css/mixins';
+
+.btn {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 200*@ptr;
+  height: 80*@ptr;
+  border-radius: 5*@ptr;
+  text-align: center;
+  font-size: 30*@ptr;
+  line-height: 80*@ptr;
+  border: none;
+}
+
+.btn-primary {
+  background: @color-primary;
+  color: #fff;
+}
+
+.btn-default {
+  border: 1px solid @color-primary;
+  line-height: 76*@ptr;
+  color: @color-primary;
+}
+
+.btn-gray {
+  background: #ccccd0;
+  color: #fff;
+}
+
+.btn-row {
+  display: block;
+  width: 670*@ptr;
+  margin: 72*@ptr auto 0;
+}
+
+.btn:disabled {
+  background: #ccccd0;
+  color: #fff;
+}

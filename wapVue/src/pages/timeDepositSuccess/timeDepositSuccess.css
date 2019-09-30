@@ -1,0 +1,26 @@
+.timeDepositSuccess{ position: absolute;width:100%;height:100%;left:0;top:0;background:#FFFFFF;}
+
+.timeDepositSuccess .success_box{padding:1.5rem 0 1.25rem; text-align: center;}
+.timeDepositSuccess .success_box img{height:2.8125rem;margin:0 auto;margin-bottom:.75rem;}
+.timeDepositSuccess .success_box .p1{font-size:1.125rem;line-height:1.5625rem;color:#2B313D;font-weight:600;margin-bottom:.5rem;}
+.timeDepositSuccess .success_box .p2{font-size:2.125rem;color:#2B313D;font-weight:600;margin-bottom:.375rem;}
+.timeDepositSuccess .success_box .p3{font-size:.75rem;color:#848999;font-weight:400;}
+
+.timeDepositSuccess .matchInfoList{line-height:2.25rem;background:#FFFFFF;padding:.75rem 0;margin-left:1rem;border-bottom:1px solid #DFE3EB;border-top:1px solid #DFE3EB;font-size:.875rem;}
+.timeDepositSuccess .matchInfoList dl{height:auto;overflow:hidden;}
+.timeDepositSuccess .matchInfoList dl dt{float:left;width:6.5rem; white-space:nowrap;color:#848999;}
+.timeDepositSuccess .matchInfoList dl dd{margin-left:6.5rem;white-space:nowrap;color:#2b313d;}
+
+.timeDepositSuccess .ad_area{padding-top:.75rem;margin:0 1rem;height:auto;overflow:hidden;}
+.timeDepositSuccess .ad_area img{width:100%;float:left;margin-bottom:.75rem;}
+.timeDepositSuccess .button_area{ text-align:center;}
+.timeDepositSuccess .button_area.static{ position: static;margin-bottom:0}
+
+.tkAward{position:fixed;width: 82%;top: 17%;background-color: #FFFFFF;padding-bottom: 1.5rem;left: 9%;z-index: 22;border-radius: 0.8rem;}
+.tkAward .close{position: absolute;top: -10%;right: 0;}
+.tkAward .close img{width: 2rem;}
+.tkAward .headImg{width: 100%;}
+.tkAward h3{font-size: 0.813rem;width: 88%;margin: 0.5rem auto 0.5rem;}
+.tkAward p{font-size: 0.75rem;color: #848999;padding-bottom: 0.5rem;line-height: 1.25rem; border-bottom: 1px #DFE3EB solid;width: 88%;margin: 0 auto;}
+.tkAward .btn{display:block;width: 80%;margin: 0.5rem auto 0;}
+.tkAward .btn img{width: 15rem; max-height: 3rem;}

@@ -1,0 +1,186 @@
+.ofc-content{margin-bottom: 1rem;}
+.ofc-content .ofc-content-detail {margin-top: 1rem;padding-top: 1rem;overflow: hidden;background-color: #ffffff;padding-bottom: 1rem;}
+.ofc-content .ofc-content-detail .div-detail-title{overflow: hidden;margin-bottom: 1.5rem;margin-left: 5%;margin-right: 5%;}
+.ofc-content .ofc-content-detail .div-detail-title .div-icon {float: right;border-radius:5px;margin-left:0.5rem;}
+.ofc-content .ofc-content-detail .div-detail-title .div-icon-jiaxi{border: 1px #f67676 solid;}
+.ofc-content .ofc-content-detail .div-detail-title .div-icon-fanxian{border: 1px #fb9d41 solid;}
+.ofc-content .ofc-content-detail .div-detail-title .div-icon-smileIcon{border: 1px #7cb5f6 solid;}
+.ofc-content .ofc-content-detail .div-detail-title .div-icon .span1{float: left;color: #ffffff;padding:0.1rem 0.3rem;font-size: 0.625rem;border-radius:2px 0 0 2px;}
+.ofc-content .ofc-content-detail .div-detail-title .div-icon .span2{float: left;    margin:0.5rem 0 0 0.3rem;padding-right: 0.3rem;font-size: 0.75rem;}
+.ofc-content .ofc-content-detail .div-detail-title .div-icon .span-jiaxi-1{background-color: #f67676;}
+.ofc-content .ofc-content-detail .div-detail-title .div-icon .span-jiaxi-2{color: #f67676;}
+.ofc-content .ofc-content-detail .div-detail-title .div-icon .span-fanxian-1{background-color: #fb9d41;}
+.ofc-content .ofc-content-detail .div-detail-title .div-icon .span-fanxian-2{color: #fb9d41;}
+.ofc-content .ofc-content-detail .div-detail-title .div-icon .span-smileIcon-1{background-color: #7cb5f6;}
+.ofc-content .ofc-content-detail .div-detail-title .div-icon .span-smileIcon-2{color: #7cb5f6;}
+.ofc-content .ofc-content-detail .div-text{font-size: 0.875rem;color: #2b313d;float: left;margin-top: 0.5rem;}
+.ofc-content .ofc-content-detail .div-detail-number{color: #2b313d;font-size: 1.5rem;text-align: center;}
+.ofc-content .ofc-content-detail .div-detail-number-name{font-size: 0.75rem;color:#848999;margin-top: 0.3rem;text-align: center;}
+.ofc-content .ofc-content-tip{background-color: #fefcec;overflow: hidden;font-size: 0.75rem;padding: 0.7rem 0;}
+.ofc-content .ofc-content-tip .right{float: right;color:#848999;padding-right: 5%;}
+.ofc-content .ofc-content-tip .left{float: left;color:#f0484e;padding-left: 5%;}
+.ofc-content .ofc-content-tip .span1{}
+.ofc-content .ofc-content-tip .span2{width: 0.9rem;vertical-align: middle;margin-left: 0.2rem;}
+.redPacket {
+    width: 100%;
+    height: 3.125rem;
+
+    background-color: #fff;
+    border-bottom: #eaeaea 1px solid;
+    border-top: #eaeaea 1px solid;
+    font-size: 0.875rem;
+}
+.redPacket span {
+    float: left;
+}
+.redPacket .span1 {
+    margin-left: 5%;line-height: 3.125rem;
+    margin-right: 0.5rem;
+}
+.redPacket .span2 {
+    background-color: #f0484e;
+    font-size: 0.813rem;
+    border-radius: 50%;
+    width: 1.2rem;
+    height: 1.2rem;
+    color: #ffffff;
+    text-align: center;
+    margin: 0.9rem 0.2rem 0 0.2rem;
+    line-height: 1.2rem;
+}
+.redPacket .span3 {
+    color: #848999;line-height: 3.125rem;
+}
+.redPacket .span6 {
+    color:#f0484e;line-height: 3.125rem;
+}
+.redPacket .span4 {
+    font-size: 0.75rem;margin-top:0.9rem; padding: 0.1rem 0.2rem;border-radius: 5px;
+    text-align: right;
+    float: right;
+}
+
+.redPacket .span5 {
+    width: 1rem;line-height: 3.125rem;
+    float: right;
+    margin-right: 5%;
+}
+.redPacket .span7{line-height: 3.125rem;
+}
+.redPacket .span5 img {
+    width: 100%;
+    vertical-align: middle;
+}
+.inv-confirm-btn {
+    text-align: center;
+    margin-top: 3rem;
+}
+.inv-confirm-btn input {
+
+}
+.inv-confirm-xieyi {
+    font-size: 0.688rem;
+    margin-bottom: 1.188rem;
+}
+.inv-confirm-xieyi input {
+    margin-left: 5%;
+    vertical-align: -2px;
+    margin-right: 4px;
+}
+.inv-confirm-xieyi span a {
+    color:#f0484e;
+}
+.redbagTk {
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    z-index: 22;
+    max-width: 600px;
+    height: 316px;
+    overflow-y: scroll;
+}
+.redbagTk .title {
+    margin: 0 auto 10px;
+    width: 80%;
+    padding-top: 15px;
+}
+.redbagTk .title img {
+    width: 100%;
+}
+.redbagTk .rb_com {
+    margin: 0 auto 10px;
+    width: 90%;
+    overflow: hidden;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.redbagTk .rb_com .left {
+    float: left;
+    width: 30%;
+    margin-left: 3px;
+    margin-top: 2px;
+    text-align: center;
+    line-height: 46px;
+    height: 46px;
+    font-size: 1.2em;
+}
+.redbagTk .rb_com .left font {
+    font-size: 0.7em;
+}
+.redbagTk .rb_com .center {
+    float: left;
+    width: 38%;
+    font-size: 0.8em;
+    padding-left: 5%;
+    height: 50px;
+}
+.redbagTk .rb_com .center .p1 {
+    margin-top: 8px;
+}
+.redbagTk .rb_com .right {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.redbagTk .rb_com .right img {
+    width: 30px;
+    margin-top: 10px;
+}
+.redbagTk .rb_jiaxi {
+    background-image: url("//static.facebank.cn/static/wapFront/autoInvest/img/jiaxi_bg.png");
+}
+.redbagTk .rb_jiaxi .left {
+    color: #ed7373;
+    background-color: #fef1f1;
+}
+.redbagTk .rb_jiaxi .center .p1 {
+    color: #ed7373;
+}
+.redbagTk .rb_fanxian {
+    background-image: url("//static.facebank.cn/static/wapFront/autoInvest/img/fanxian_bg.png");
+}
+.redbagTk .rb_fanxian .left {
+    color: #fb9d41;
+    background-color: #fef8f0;
+}
+.redbagTk .rb_fanxian .center .p1 {
+    color: #fb9d41;
+}
+.redbagTk .rb_wu {
+    background-image: url("//static.facebank.cn/static/wapFront/autoInvest/img/wu_bg.png");
+}
+.redbagTk .rb_wu div.left {
+    font-size: 0.9em;
+}
+.wapPos{top: 20%;}
+.wapPos .div-title{background-color: #fefcec;text-align: center;padding: 1rem;overflow: hidden;}
+.wapPos .div-title font{color: #f0484e;margin-left: 0.3rem;}
+.wapPos .div-value{width: 90%;margin: 0 auto 1rem;padding-top: 0.5rem;font-size: 0.75rem;border-bottom: 1px #DFE3EB solid;}
+.wapPos .div-value p{margin-bottom: 0.6rem;}
+.wapPos .div-value p .span-right{float: right;}
+.wapPos .div-value p .span-right font{color: #f0484e;font-size: 0.813rem;}
+.wapPos .div-rule{margin-top: 0.75rem;margin-left: 5%;margin-right: 5%;}
+.wapPos .div-rule ul{font-size: 0.75rem;color:#f0484e;margin-bottom: 1rem;}
+.wapPos .div-rule ul li{}

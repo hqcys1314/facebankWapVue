@@ -1,0 +1,166 @@
+.directInvestDetail{background:#EFF1F4;}
+.directInvestDetail .top{ display:block; background:#f0484e;width:100%; text-align: center;padding-top: 1.40625rem; }
+.directInvestDetail .top .infos{height:4.28rem;border-top:1px solid #f7656c; width:100%;}
+.directInvestDetail .top .firstInvest_tip{margin-bottom: 2rem;}
+.directInvestDetail .top .firstInvest_tip .firstInvest_tipPos{width:56%;margin: 0 auto;position:relative;
+    border-radius: 2rem;height: 1.375rem;line-height:1.375rem;text-align:center;border: 1px #fff solid;color: #ffffff;
+    font-size: 0.688rem;}
+.directInvestDetail .top .firstInvest_tip .firstInvest_tipPos:after{ position: absolute;content:'';
+         bottom: -5px;left: 50%;margin-left: -4px;
+         height:8px;
+         width:8px;
+         border-width: 0 1px 1px 0;
+         border-color: #fff;background-color: #f0484e;
+         border-style: solid;
+         transform: matrix(0.707107,0.707107,-0.707107,0.707107,0,0);
+         transform-origin: center;
+         transition: transform .3s
+}
+.directInvestDetail .top .firstInvest_tip .firstInvest_tipPos .iTip{position: absolute;right:0.5rem;top: 0;}
+.directInvestDetail .top .firstInvest_tip .firstInvest_tipPos .iTip img{width: 0.9rem;vertical-align: middle;}
+.directInvestDetail .comparison{ display:block; text-align:center;width:100%;border-bottom:0;
+     /*-webkit-transform:translate(-50%, 0);
+     -moz-transform:translate(-50%, 0);
+     -ms-transform:translate(-50%, 0);
+     -o-transform:translate(-50%, 0);
+     transform:translate(-50%, 0);
+     -webkit-flex:1;-webkit-flex-grow: 1;
+     -moz-flex:1;-moz-flex-grow: 1;
+     flex:1;flex-grow: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -moz-flexbox;
+    display: flex;
+
+    border-bottom:1px solid #F5865B;*/padding-bottom: 1.40625rem; text-align:center;color:#FFFFFF;vertical-align:top;
+
+    /*-webkit-box-pack: center;
+    -moz-flex-pack: center;
+    -ms-flex-pack: center;
+    -o-flex-pack: center;
+    flex-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center;
+*/
+}
+.directInvestDetail .comparison .interest_rate{ white-space:nowrap;font-size:2.75rem;line-height:1.1;height:4.6875rem; display:inline-block;}
+.directInvestDetail .comparison .interest_rate span{opacity: 0.6;clear:both; display:block;padding-right:1.3125rem;line-height:1.18;font-size:.6875rem; background:url(~assets/wapFront/common/img/sicon_warn.png) no-repeat right center/auto 100%;}
+.directInvestDetail .comparison .interest_rate span.noIcon{background:none;padding-right:0;}
+.directInvestDetail .comparison .item{white-space:nowrap; display:inline-block; position:relative;text-align:center;font-size:1.3125rem;line-height:1.6875rem;padding-left:1.34375rem;padding-top:.3125rem;margin:0 .3125rem;}
+.directInvestDetail .comparison .item p{font-size:1.3125rem;}
+.directInvestDetail .comparison .item i{ display:inline-block;font-style:normal;font-size:1.03125rem;}
+.directInvestDetail .comparison .item span{ opacity: 0.6;display:block; white-space:nowrap;width:3.46875rem;
+  height:1.03125rem;font-size:.625rem;line-height:1.65; text-align:center;     border: 1px #DFE3EB solid;border-radius: 2rem;}
+.directInvestDetail .infos{ display:block;height:auto;overflow:hidden; text-align:center;color:#FFFFFF;}
+.directInvestDetail .infos .item{width:50%;float:left;padding-top:.5625rem;line-height:1.73;font-size:.8125rem;}
+.directInvestDetail .infos .item span{ display:block;line-height:1.5;font-size:1.125rem;}
+.directInvestDetail .infos .item font{opacity: 0.6;}
+
+.directInvestDetail .countdown{ display:block; text-align:left;padding:.1875rem 0 0 1.25rem;line-height:2.6;font-size:.625rem;color:#aaa9aa;}
+
+.directInvestDetail .project_state{ display:block;padding:1.25rem .9375rem; background:#FFFFFF;margin-bottom:.46875rem;}
+.directInvestDetail .project_state .progress_bar{ display:block; position:relative;margin-bottom:.3125rem;}
+.directInvestDetail .project_state .progress_bar .line{ display:block;height:.09375rem; background:#DADAE4;overflow:hidden; position:absolute;top:50%;left:0;width:100%;margin-top:-.046875rem;}
+.directInvestDetail .project_state .progress_bar .bar{width:auto; display:block;height:.75rem; position:relative;}
+.directInvestDetail .project_state .progress_bar .bar .line{height:.09375em;background:#f0484e;overflow:hidden;width:100%; position:absolute;top:50%;margin-top:-.046875rem;;z-index:1;}
+.directInvestDetail .project_state .progress_bar .bar .dian{width:.34375rem;height:.34375rem; background:#FFFFFF;border:.1875rem solid #f0484e;float:right;border-radius:100%; position:relative;z-index:2;}
+.directInvestDetail .project_state .font{ display:block;height:auto;overflow:hidden;}
+.directInvestDetail .project_state .font .left{float:left; white-space:nowrap;;font-size:.625rem;color:#848999;}
+.directInvestDetail .project_state .font .left span{font-size:.9375rem;color:#373737;}
+.directInvestDetail .project_state .font .right{float:right; white-space:nowrap;;font-size:.625rem;color:#848999;}
+.directInvestDetail .project_state .font .right span{font-size:.9375rem;color:#f0484e; display:inline-block;padding-left:.3125rem;}
+.directInvestDetail .first_interest{ text-align:right; display:block;line-height:1.8;margin-bottom:.9375rem;padding:0 0.9375rem;color:#f0484e;font-size:.9375rem;}
+
+.directInvestDetail .item_box{ display:block;background:#FFFFFF;margin-bottom:.46875rem;padding-top:0;}
+.directInvestDetail .item_box .title{ display:block;margin-left:.9375rem;border-bottom:1px solid #E0E4ED;line-height:2.93;font-size:.9375rem;}
+.directInvestDetail .progress{padding:1.3125rem 0 .875rem;margin:0 .9375rem;}
+.directInvestDetail .progress .progress_bar{ display:block; position:relative;margin-bottom:.46875rem;height:6.09375rem;z-index:1;}
+.directInvestDetail .progress .progress_bar .line{display:block;height:.09375rem;background:#f0484e;overflow:hidden;position:absolute;top:2.125rem;left:0;width:100%;}
+.directInvestDetail .progress .progress_bar .bar{width:100%; display:flex;height:.75rem; position:relative;flex-wrap: nowrap}
+.directInvestDetail .progress .progress_bar .bar .item{ display:block;width:25%;float:left; position:relative;height:4.6875rem;}
+.directInvestDetail .progress .progress_bar .bar .dian{width:.9375rem; position:relative;background:#FFFFFF;height:.5rem;top:1.9375rem;text-align:center;left:50%;margin-left:-.46875rem;;}
+.directInvestDetail .progress .progress_bar .bar .dian span{width:.25rem;height:.25rem; background:#FFFFFF;border:.125rem solid #f0484e; position:absolute;left:50%;margin-left:-.1875rem;top:50%;margin-top:-.1875rem;border-radius:50%;z-index:2;}
+.directInvestDetail .progress .progress_bar .bar .tit{ display:block;width:100%; white-space:nowrap;color:#38393f;font-size:.75rem; position:absolute;left:0;top:0;}
+.directInvestDetail .progress .progress_bar .bar .desc{ display:block;width:100%;color:#a2a2a9;font-size:.6875rem;line-height:1.81;height:1.625rem; position:absolute;left:0;bottom:0;}
+.directInvestDetail .progress .progress_bar .bar .item:nth-child(1){ text-align:left;width:18%;}
+.directInvestDetail .progress .progress_bar .bar .item:nth-child(1) .dian{left:0%;margin-left:0;}
+.directInvestDetail .progress .progress_bar .bar .item:nth-child(2){ text-align:center;width:32%}
+.directInvestDetail .progress .progress_bar .bar .item:nth-child(3){text-align:center;width:32%}
+.directInvestDetail .progress .progress_bar .bar .item:nth-child(4){width:18%;}
+.directInvestDetail .progress .progress_bar .bar .item:nth-child(4) .tit,
+.directInvestDetail .progress .progress_bar .bar .item:nth-child(4) .desc{text-align:center;width:auto;right:0;}
+.directInvestDetail .progress .progress_bar .bar .item:nth-child(4) .dian{left:auto;right:0;margin-left:0; position:absolute;}
+
+.directInvestDetail .items{ display:block;background:#FFFFFF;margin-bottom:.46875rem;}
+.directInvestDetail .items a{ display:block;border-bottom:1px solid #EFF1F4;margin-left:1.25rem;height:3.3125rem;line-height:3.53;padding-right:.9375rem;font-size:.9375rem;}
+.directInvestDetail .items a span{float:right; display:block; white-space:nowrap;color:#848999;padding-right:1.375rem;background:url(~assets/wapFront/common/img/arrow_r.png) no-repeat center right/auto .8125rem; }
+.directInvestDetail .items a .bicon_warn{padding-right:1.78125rem;background:url(~assets/wapFront/common/img/bicon_warn.png) no-repeat right center/auto 1.25rem;}
+
+
+.directInvestDetail .safe_tips{ display:block;padding:1.09375rem .9375rem;}
+.directInvestDetail .safe_tips dl{margin-bottom:.78125rem;line-height:1.5625rem;height:auto;overflow:hidden;}
+.directInvestDetail .safe_tips dl i{font-style:normal;width:.90625rem;height:.90625rem;float:left;margin-top:.3125rem;background:no-repeat center center/100% 100%;}
+.directInvestDetail .safe_tips dl i.icon_1{background-image:url(~assets/wapFront/common/img/sicon_1.png)}
+.directInvestDetail .safe_tips dl i.icon_2{background-image:url(~assets/wapFront/common/img/sicon_2.png)}
+.directInvestDetail .safe_tips dl dt{font-size:.9375rem;margin-left:1.875rem;}
+.directInvestDetail .safe_tips dl dd{font-size:.875rem;margin-left:1.875rem;}
+
+.directInvestDetail .text_content{line-height:1.5;padding:.9376rem; position:relative;}
+.directInvestDetail .text_content .boxs{height:10.5rem;overflow:hidden;
+}
+.directInvestDetail .text_content.autoHeight .boxs{height:auto;padding-bottom:3rem;}
+.directInvestDetail .text_content .view_more{ display:block;line-height:2; text-align:center;padding-top:4em; position:absolute;bottom:0rem;left:0;width:100%;
+background-image: -webkit-linear-gradient( top,rgba(255,255,255, 0), rgba(255,255,255, 1));background-image: -moz-linear-gradient( top,rgba(255,255,255, 0),rgba(255,255,255, 1));
+}
+.directInvestDetail .text_content .view_more:after{width:.3125rem;height:.3125rem; display:inline-block;border-top:1px solid #848999;border-right:1px solid #848999;border-bottom:0; background:#F8F9FB; -webkit-transform:rotate(-225deg); transform:rotate(-225deg); content:" "; position:relative;left:2%;top:-.1rem;}
+.directInvestDetail .text_content.autoHeight .view_more:after{-webkit-transform:rotate(-45deg); transform:rotate(-45deg);}
+
+
+
+
+.directInvestDetail .warn_tips{ display:block; text-align:center;font-size:.875rem;line-height:1.71;color:#ACB2B8;margin-bottom:4.46875rem;}
+
+.directInvestDetail .btn_area{ display:block;padding:.625rem .8125rem;background:#FFFFFF;}
+.directInvestDetail .btn_area a{ display:block; background:#f0484e;border-radius:.15625rem; text-align:center;line-height:2.63;color:#FFFFFF;font-size:1.1875rem;}
+.foot-btn {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 4rem;
+  z-index:2;
+  background-color: #fff;
+}
+.foot-btn a {
+  line-height: 2.75rem;
+  font-size: 0.938rem;
+  width: 90%;
+  margin: 0.5rem auto 0;
+}
+.directInvestDetail .wapPos{top:50%; -webkit-transform:translateY(-50%); transform:translateY(-50%)}
+.directInvestDetail .wapPos .p-title{margin: 0rem auto;color: #2b313d;font-size: 1.1rem;text-align: center;}
+.directInvestDetail .wapPos .p-title img{width: 37%; margin-top: -3.2rem;}
+.directInvestDetail .wapPos .div-value{width: 90%;margin: 0 auto 1rem;padding-top: 1rem;}
+.directInvestDetail .wapPos .div-value p{margin-bottom: 0.6rem;}
+.directInvestDetail .wapPos .div-value p .span-right{float: right;}
+.directInvestDetail .wapPos .div-value p .span-right font{color: #f0484e;}
+.directInvestDetail .wapPos .cash{margin: 0;text-align: left;padding:1rem;}
+.directInvestDetail .wapPos .cash span{color:#f0484e}
+
+.directInvestDetail .warn_tips{font-size:.75rem; text-align: left;padding:.75rem 1.25rem;}
+.directInvestDetail .warn_tips span{color:#848999}
+.auto-head {
+    width: 100%;    position: relative;
+    text-align: center;
+    font-size: 0.75rem;
+    color: #ffffff;
+    padding: 0.3rem 0 0.688rem;
+    background-color:#1c1b21;
+}
+.auto-head span{color:#fa9b5b;}
+.auto-head a{    position: absolute;
+    right: 1rem;
+    color: #fff;
+    text-decoration: underline;}

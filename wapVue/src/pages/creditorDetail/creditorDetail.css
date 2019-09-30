@@ -1,0 +1,91 @@
+.creditorDetail{background:#EFF1F4;}
+.creditorDetail .creditorTop{ display: block;color:#848999;background:#FFFFFF;margin-bottom:.625rem;}
+.creditorDetail .creditorTop .title{line-height:2.5rem;font-size:.875rem;padding:0 1rem;margin-bottom:.5rem;}
+.creditorDetail .creditorTop .box{height:auto;overflow:hidden;font-size:.75rem;padding:0 1rem;border-bottom:1px solid #f1f1f1;}
+.creditorDetail .creditorTop .box .state{float:right; white-space: nowrap;border-left:1px dashed #e6e6e6;font-size:1rem;line-height:3rem;margin-top:.53125rem;padding-left:1rem;margin-bottom:1.25rem;}
+.creditorDetail .creditorTop .box .info{float:left; white-space: nowrap;;}
+.creditorDetail .creditorTop .box p{line-height:1.5rem;}
+.creditorDetail .creditorTop .box p span{color:#2b313d;font-size:.875rem;}
+.creditorDetail .creditorTop .box p.lv{line-height:1.8rem;}
+.creditorDetail .creditorTop .box .lv span.lv_num{font-size:1.5rem;color:#f0484e;}
+.creditorDetail .creditorTop .box .lv span.unit{font-size:.75rem;color:#f0484e;line-height:1rem;}
+.creditorDetail .creditorTop .box .lv .desc{font-size:.75rem;color:#848999;}
+.creditorDetail .creditorTop .progress_box{padding:1rem;}
+.creditorDetail .creditorTop .progress_bar{ display:block; position:relative;margin-bottom:.5625rem;}
+.creditorDetail .creditorTop .progress_bar .line{ display:block;height:.09375rem; background:#DADAE4;overflow:hidden; position:absolute;top:50%;left:0;width:100%;margin-top:-.046875rem;}
+.creditorDetail .creditorTop .progress_bar .bar{width:auto; display:block;height:.75rem; position:relative;}
+.creditorDetail .creditorTop .progress_bar .bar .line{height:.09375em;background:#f0484e;overflow:hidden;width:100%; position:absolute;top:50%;margin-top:-.046875rem;;z-index:1;}
+.creditorDetail .creditorTop .progress_bar .bar .dian{width:.34375rem;height:.34375rem; background:#FFFFFF;border:.1875rem solid #f0484e;float:right;border-radius:100%; position:relative;z-index:2;}
+.creditorDetail .creditorTop .progress_box .text{ display:block;height:auto;overflow:hidden;font-size:.75rem;}
+.creditorDetail .creditorTop .progress_box .text .right{float:right; white-space: nowrap;}
+.creditorDetail .creditorTop .progress_box .text span{color:#2b313d;}
+.creditorDetail .creditorTop .progress_box .text em{font-style:normal;color:#f0484e}
+.creditorDetail .infos{ display:block;height:auto;overflow:hidden; text-align:center;color:#FFFFFF;}
+.creditorDetail .infos .item{width:50%;float:left;padding-top:.5625rem;line-height:1.73;font-size:.8125rem;}
+.creditorDetail .infos .item span{ display:block;line-height:1.5;font-size:1.125rem;}
+.creditorDetail .top{height:6.48rem; position: relative;padding-top:4.8rem;}
+.creditorDetail .comparison{flex:1;flex-grow: 1; position: absolute;left:50%;top:0; -webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);-o-transform:translateX(-50%);transform:translateX(-50%);border-bottom:0;}
+.creditorDetail .top .infos{height:4.28rem;border-top:1px solid #F5865B; position: absolute;;bottom:0;width:100%;}
+.creditorDetail .countdown{ display:block; text-align:left;padding:.1875rem 0 0 1.25rem;line-height:2.6;font-size:.625rem;color:#aaa9aa;}
+
+.creditorDetail .project_state{ display:block;padding:1.25rem .9375rem; background:#FFFFFF;margin-bottom:.46875rem;}
+.creditorDetail .project_state .progress_bar{ display:block; position:relative;margin-bottom:.3125rem;}
+.creditorDetail .project_state .progress_bar .line{ display:block;height:.09375rem; background:#DADAE4;overflow:hidden; position:absolute;top:50%;left:0;width:100%;margin-top:-.046875rem;}
+.creditorDetail .project_state .progress_bar .bar{width:auto; display:block;height:.75rem; position:relative;}
+.creditorDetail .project_state .progress_bar .bar .line{height:.09375em;background:#f0484e;overflow:hidden;width:100%; position:absolute;top:50%;margin-top:-.046875rem;;z-index:1;}
+.creditorDetail .project_state .progress_bar .bar .dian{width:.34375rem;height:.34375rem; background:#FFFFFF;border:.1875rem solid #f0484e;float:right;border-radius:100%; position:relative;z-index:2;}
+.creditorDetail .project_state .font{ display:block;height:auto;overflow:hidden;}
+.creditorDetail .project_state .font .left{float:left; white-space:nowrap;;font-size:.625rem;color:#848999;}
+.creditorDetail .project_state .font .left span{font-size:.9375rem;color:#373737;}
+.creditorDetail .project_state .font .right{float:right; white-space:nowrap;;font-size:.625rem;color:#848999;}
+.creditorDetail .project_state .font .right span{font-size:.9375rem;color:#f0484e; display:inline-block;padding-left:.3125rem;}
+.creditorDetail .first_interest{ text-align:right; display:block;line-height:1.8;margin-bottom:.9375rem;padding:0 0.9375rem;color:#f0484e;font-size:.9375rem;}
+
+.creditorDetail .item_box{ display:block;background:#FFFFFF;margin-bottom:.46875rem;padding-top:0;}
+.creditorDetail .item_box .title{ display:block;margin-left:.9375rem;border-bottom:1px solid #E0E4ED;line-height:2.93;font-size:.9375rem;}
+.creditorDetail .progress{padding:1.3125rem 0 .875rem;margin:0 .9375rem;}
+.creditorDetail .progress .progress_bar{ display:block; position:relative;margin-bottom:.46875rem;height:6.09375rem;z-index:1;}
+.creditorDetail .progress .progress_bar .line{display:block;height:.09375rem;background:#f0484e;overflow:hidden;position:absolute;top:2.125rem;left:0;width:100%;}
+.creditorDetail .progress .progress_bar .bar{width:100%; display:flex;height:.75rem; position:relative;flex-wrap: nowrap}
+.creditorDetail .progress .progress_bar .bar .item{ display:block;width:25%;float:left; position:relative;height:4.6875rem;}
+.creditorDetail .progress .progress_bar .bar .dian{width:.9375rem; position:relative;background:#FFFFFF;height:.5rem;top:1.9375rem;text-align:center;left:50%;margin-left:-.46875rem;;}
+.creditorDetail .progress .progress_bar .bar .dian span{width:.25rem;height:.25rem; background:#FFFFFF;border:.125rem solid #f0484e; position:absolute;left:50%;margin-left:-.1875rem;top:50%;margin-top:-.1875rem;border-radius:50%;z-index:2;}
+.creditorDetail .progress .progress_bar .bar .tit{ display:block;width:100%; white-space:nowrap;color:#38393f;font-size:.75rem; position:absolute;left:0;top:0;}
+.creditorDetail .progress .progress_bar .bar .desc{ display:block;width:100%;color:#a2a2a9;font-size:.6875rem;line-height:1.81;height:1.625rem; position:absolute;left:0;bottom:0;}
+.creditorDetail .progress .progress_bar .bar .item:nth-child(1){ text-align:left;width:18%;}
+.creditorDetail .progress .progress_bar .bar .item:nth-child(1) .dian{left:0%;margin-left:0;}
+.creditorDetail .progress .progress_bar .bar .item:nth-child(2){ text-align:center;width:32%}
+.creditorDetail .progress .progress_bar .bar .item:nth-child(3){text-align:center;width:32%}
+.creditorDetail .progress .progress_bar .bar .item:nth-child(4){width:18%;}
+.creditorDetail .progress .progress_bar .bar .item:nth-child(4) .tit,
+.creditorDetail .progress .progress_bar .bar .item:nth-child(4) .desc{text-align:center;width:auto;right:0;}
+.creditorDetail .progress .progress_bar .bar .item:nth-child(4) .dian{left:auto;right:0;margin-left:0; position:absolute;}
+
+.creditorDetail .items{ display:block;background:#FFFFFF;margin-bottom:.46875rem;}
+.creditorDetail .items a{ display:block;border-bottom:1px solid #EFF1F4;margin-left:1.25rem;height:3.3125rem;line-height:3.53;padding-right:.9375rem;font-size:.9375rem;}
+.creditorDetail .items a span{float:right; display:block; white-space:nowrap;color:#848999;padding-right:1.375rem;background:url(~assets/wapFront/common/img/arrow_r.png) no-repeat center right/auto .8125rem; }
+.creditorDetail .items a .bicon_warn{padding-right:1.78125rem;background:url(~assets/wapFront/common/img/bicon_warn.png) no-repeat right center/auto 1.25rem;}
+
+
+.creditorDetail .safe_tips{ display:block;padding:1.09375rem .9375rem;}
+.creditorDetail .safe_tips dl{margin-bottom:.78125rem;line-height:1.5625rem;height:auto;overflow:hidden;}
+.creditorDetail .safe_tips dl i{font-style:normal;width:.90625rem;height:.90625rem;float:left;margin-top:.3125rem;background:no-repeat center center/100% 100%;}
+.creditorDetail .safe_tips dl i.icon_1{background-image:url(~assets/wapFront/common/img/sicon_1.png)}
+.creditorDetail .safe_tips dl i.icon_2{background-image:url(~assets/wapFront/common/img/sicon_2.png)}
+.creditorDetail .safe_tips dl dt{font-size:.9375rem;margin-left:1.875rem;}
+.creditorDetail .safe_tips dl dd{font-size:.875rem;margin-left:1.875rem;}
+
+.creditorDetail .text_content{line-height:1.5;padding:.9376rem; position:relative;}
+.creditorDetail .text_content .boxs{height:10.5rem;overflow:hidden;
+}
+.creditorDetail .text_content.autoHeight .boxs{height:auto;padding-bottom:3rem;}
+.creditorDetail .text_content .view_more{ display:block;line-height:2; text-align:center;padding-top:4em; position:absolute;bottom:0rem;left:0;width:100%;
+background-image: -webkit-linear-gradient( top,rgba(255,255,255, 0), rgba(255,255,255, 1));background-image: -moz-linear-gradient( top,rgba(255,255,255, 0),rgba(255,255,255, 1));
+}
+.creditorDetail .text_content .view_more:after{width:.3125rem;height:.3125rem; display:inline-block;border-top:1px solid #848999;border-right:1px solid #848999;border-bottom:0; background:#F8F9FB; -webkit-transform:rotate(-225deg); transform:rotate(-225deg); content:" "; position:relative;left:2%;top:-.1rem;}
+.creditorDetail .text_content.autoHeight .view_more:after{-webkit-transform:rotate(-45deg); transform:rotate(-45deg);}
+
+
+
+
+.creditorDetail .warn_tips{ display:block; text-align:center;font-size:.875rem;line-height:1.71;color:#ACB2B8;margin-bottom:4.46875rem;}

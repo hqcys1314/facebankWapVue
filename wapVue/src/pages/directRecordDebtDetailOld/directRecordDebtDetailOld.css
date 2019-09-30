@@ -1,0 +1,45 @@
+/*列表页 */
+
+
+.directRecordDebtDetail{background:#EFF1F4;}
+
+.switch_tab{display:block;line-height:2.75rem; text-align:center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom:.46875rem;background:#FFFFFF;font-size:1rem;font-weight:600;}
+.switch_tab li{width:33.33%;float:left;color:#2b313d}
+.switch_tab li.current{color:#f0484e; position:relative;}
+.switch_tab li.current:after{display:block;content: ' ';background:#F0484E;position: absolute;left: 50%;margin-left:-.5rem;;width:1rem;height:.125rem;bottom:0.28125rem;border-radius:.0625rem;}
+
+
+.directRecordDebtDetail .item_box{ display:block;padding-left:1rem;background:#FFFFFF;margin-bottom:.46875rem;}
+.directRecordDebtDetail .item_box.bottom{padding-bottom:2.8125rem;margin-bottom:0;}
+.directRecordDebtDetail .item_box .title{border-bottom:1px solid #DFE3EB;line-height:3;font-size:0.9375rem;padding-top:.5rem;}
+.directRecordDebtDetail .item_box .title2{border:0;}
+.directRecordDebtDetail .item_box .title3{border:0;padding-top:1rem;line-height:1;margin-bottom:0;}
+
+.directRecordDebtDetail .item_box .content{ display:block;margin-right:.9375rem;}
+.directRecordDebtDetail .item_box .content table{border-spacing: 0;border-collapse: collapse;width: 100%;max-width: 100%;  margin-bottom: .625rem;overflow:hidden;font-size:.875rem;}
+.directRecordDebtDetail .item_box .content table thead{border-left:1px solid #E3CEC5;border-top:1px solid #E3CEC5;}
+.directRecordDebtDetail .item_box .content table thead th{font-weight:200;background:#FCE7DF;border-right:1px solid #E3CEC5; text-align:center;line-height:2.5;height:2.1875rem;font-size:.75rem; vertical-align:middle;color:#f0484e; white-space:nowrap}
+.directRecordDebtDetail .item_box .content table thead th.w206{width:6.4375rem;}
+.directRecordDebtDetail .item_box .content table tbody{border-left:1px solid #C9C9C9;}
+.directRecordDebtDetail .item_box .content table tbody td{ text-align:center;padding-top:.1875rem;height:2.96875rem;border-bottom:1px solid #C9C9C9;border-right:1px solid #C9C9C9; vertical-align:middle}
+.directRecordDebtDetail .item_box .content table tbody td.small{font-size:.75rem; text-align:left;padding-left:1.0625rem;}
+.directRecordDebtDetail .item_box .content table tbody td.small2{font-size:.75rem; text-align:center;}
+
+.directRecordDebtDetail .item_box p{ display:block;line-height:1.28125;font-size:.9375rem;}
+.directRecordDebtDetail .item_box p.q{padding-top:.75rem;border:0;}
+
+.directRecordDebtDetail .item_box .item_dl{ display:block;padding:1.40625rem .9375rem 1rem 0;}
+.directRecordDebtDetail .item_box .item_dl dl{line-height:1.5;margin-bottom:.625rem;height:auto;overflow:hidden;font-size:.9375rem;}
+.directRecordDebtDetail .item_box .item_dl dl dt{width:6.5625rem;float:left;color:#848999}
+.directRecordDebtDetail .item_box .item_dl dl dd{margin-left:6.5625rem;color:#2b313d;}
+.directRecordDebtDetail .item_box .item_dl dl dd small{ display:block;font-size:.75rem;color:#848999;}
+.directRecordDebtDetail .item_box .item_dl dl dd a{color:#f0484e}
+.directRecordDebtDetail .item_box .item_dl dl dd.state_1{color:#3E87FF}
+.directRecordDebtDetail .item_box .item_dl dl dd.state_2{color:#B8B8B8}
+.directRecordDebtDetail .item_box .item_dl.style2 dl dt{width:7rem;}
+.directRecordDebtDetail .item_box .item_dl.style2 dl dd{margin-left:7rem;}

@@ -1,0 +1,10 @@
+
+.page{ display: block;background:#FFFFFF;bottom:0;position:absolute;left:0;top:2.6875rem;width:100%;max-width: 600px;z-index:1;}
+.page .top{width:100%;padding-top:1.25rem;}
+.page .top img{width: 100%;}
+.page .infos{ text-align:center;margin-bottom:2.5rem;}
+.page .infos .desc{font-size:.875rem;color:#848899;margin-bottom:.875rem;line-height:1;}
+.page .infos .mobile{font-size:1.5rem;line-height:1;margin-top: 0.5rem;}
+.page .btn_tpl{width:92%; display:block;margin:0 auto;line-height:3rem;text-align:center;color:#FFFFFF;font-size:1rem;background:#F34649;border-radius:.375rem;}
+.page .desc{font-size:.75rem;color:#8484899; text-align:center;padding-top:1rem;}
+.headIos{z-index:2;}

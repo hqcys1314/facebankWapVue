@@ -1,0 +1,24 @@
+.amdList{position: absolute;top: 0;bottom: 0;width: 100%;max-width: 700px;overflow: auto;}
+.autoInvestMatchDebtOnSale .list-type{ display:block;margin-top: 0.5625rem;
+}
+.autoInvestMatchDebtOnSale .list-type .list-type-i{display:block;padding-left:.9375rem;
+  padding-right:1rem;padding:0;margin-bottom:0.46875rem;background:#FFFFFF;margin-left:0;border-bottom: 1px #e8e8e8 solid;}
+.autoInvestMatchDebtOnSale .list-type .list-type-i .box{margin-left:.9375rem;}
+.autoInvestMatchDebtOnSale .list-type .list-type-i .info{ display:block;;height:auto;overflow:hidden;line-height:3.1875rem;margin-bottom:1.25rem;font-size:.875rem;border-bottom:1px solid #e8e8e8;color:#2b313d;padding-right:.9375rem;}
+.autoInvestMatchDebtOnSale .more{margin: 2rem 0;text-align: center;color: #848999;font-size: 0.85rem;height: 2rem;line-height: 2rem;}
+.autoInvestMatchDebtOnSale .list-type .list-type-i .ul-con{overflow: hidden;    border-bottom: 1px #e8e8e8 solid;
+    padding-bottom: 1.25rem;}
+.autoInvestMatchDebtOnSale .list-type .list-type-i .ul-con .li1{width: 33%;}
+.autoInvestMatchDebtOnSale .list-type .list-type-i .ul-con .li2{width: 44%;}
+.autoInvestMatchDebtOnSale .list-type .list-type-i .ul-con .li3{width: 23%;position: relative;}
+.autoInvestMatchDebtOnSale .list-type .list-type-i .ul-con .li3 .jt{position: absolute;
+    width: 0.5rem;
+    right: 0;
+}
+
+.autoInvestMatchDebtOnSale .list-type .list-type-i .ul-con li{color:#848999;float: left;font-size: 0.75rem;}
+.autoInvestMatchDebtOnSale .list-type .list-type-i .ul-con li span{color: #2b313d;margin-bottom: 0.2rem;font-weight: bold;display: block;font-size:1rem;}
+.autoInvestMatchDebtOnSale .list-type .list-type-i .ul-bot{color:#848999;font-size: 0.75rem;height: 2.5rem;line-height: 2.5rem;}
+.autoInvestMatchDebtOnSale .list-type .list-type-i .ul-bot .span1{}
+.autoInvestMatchDebtOnSale .list-type .list-type-i .ul-bot .span1 font{margin-left: 0.5rem;}
+.autoInvestMatchDebtOnSale .list-type .list-type-i .ul-bot .span2{float: right;padding-right:.9375rem;}

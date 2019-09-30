@@ -1,0 +1,19 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.blank_36{height:1.125rem;}
+.card_box{height:8rem;overflow:hidden;margin-bottom:.6rem;}
+.card_info{ display:block;margin:0 1.25rem;margin-bottom:.75rem; position: relative;height:8rem;overflow:hidden;}
+.card_info img{width:100%; height:8rem;position:absolute;left:0;top:0;z-index:1}
+.card_info .bank_info{display:block; position: relative;z-index:2;height:7rem;}
+.card_info .bank_info .bankName{ display:block;height:auto;overflow:hidden;padding:.75rem 0 0 3rem;color:#FFFFFF;line-height:1.5625rem;margin-bottom:1rem;}
+.card_info .bank_info  .card_num{ text-align:right;font-size:1.5rem;line-height:1.625rem;color:#FFFFFF;padding-right:1rem;font-weight: bold;}
+.card_info .bank_info  .name{padding:1.1875rem 0 0 .75rem;font-size:.6875rem;color:#FFFFFF;}
+.card_info .bank_info  .name .limit2{float:right; white-space: nowrap;margin-right:1rem;}
+.limit{ display:block;padding: 0 1.25rem;color:#848999;font-family:Arial, Microsoft Yahei;font-size:.75rem;margin-bottom:2rem;}
+.limit span{font-weight:600;}
+
+
+.desc{ display: block;color:#848999;margin:0 2rem;padding-top:.75rem;}
+.desc h2{ font-size:.75rem;margin-bottom:.5rem;font-weight:400;}
+.desc li{font-size:.75rem;line-height:1.0625rem;list-style-type: decimal;margin-left:.75rem;}
+.desc li span{color:#F0484E}

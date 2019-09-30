@@ -1,0 +1,18 @@
+
+.part1{width:90%;background-color:#fff;margin:20px auto;padding: 15px 0 20px;overflow: hidden;}
+.part1 .p_img{width:100%;line-height: 25px;text-align: center;margin: 5px 0 20px;}
+.part1 .p_img img{width:80px;}
+.part1 .p_text{text-align: center;color:#f0484e;font-size: 1.3em;margin-bottom: 20px;}
+.part1 ul{width: 90%;margin: 0 auto;border-bottom: 1px #DFE3EB solid;overflow: hidden;font-size: 0.9em;padding-bottom: 15px;}
+.part1 ul li{float: left;width:49.5%;text-align: center;color:#848999;border-right: 1px #DFE3EB solid;}
+.part1 ul li:last-child{border: 0;}
+.part1 ul li .p1{color: #f0484e;}
+.part1 ul li .p2{color:#848999;margin-top: 5px;font-size: 0.9em;}
+.part1 ul li .p2 img{width: 15px;margin-left:3px;vertical-align: -3px; }
+.part1 .result{width: 90%;margin: 20px auto 0;font-size: 0.9em;}
+.part1 .result p{margin-top: 5px;}
+.part1 .result .span1{}
+.part1 .result .i{width:15px;display: inline-block;margin-left: 3px;}
+.part1 .result .i img{width: 100%;vertical-align: -2px;}
+#suc3{width: 90%;}
+.wapPos .p1{text-align: center;}

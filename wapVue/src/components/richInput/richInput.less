@@ -1,0 +1,62 @@
+@import '~assets/css/variables';
+@import '~assets/css/mixins';
+
+.rich-input-wrap {
+  position: relative;
+  .flex();
+  justify-content: flex-start;
+  height: 100*@ptr;
+  margin-left:5%;
+  border-bottom: 1px solid @color-split;
+  font-size: 32*@ptr;
+  line-height: 100*@ptr;
+  background: #fff;
+
+  label {
+    width: 150*@ptr;
+  }
+
+  @clearBtnWidth: 85*@ptr;
+  .rich-input {
+    flex: 1;
+    font-size: 32*@ptr;
+  }
+
+  .icon-ic_close {
+    position: absolute;
+    top: 50%;
+    right: 30*@ptr - @clearBtnWidth/2 + 16*@ptr;
+    width: @clearBtnWidth;
+    height: @clearBtnWidth;
+    margin-top: -@clearBtnWidth/2;
+    font-size: 32*@ptr;
+    line-height: @clearBtnWidth;
+    text-align: center;
+    color: @color-text-gray;
+  }
+
+  .input-tips {
+    position: absolute;
+    left: 30*@ptr;
+    right: 30*@ptr;
+    top: 84*@ptr;
+    z-index: 9;
+    padding: 18*@ptr;
+    border-radius: 6*@ptr;
+    background-color: rgba(67, 67, 67, .8);
+    font-size: 24*@ptr;
+    line-height: 1;
+    color: #fff;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: -20*@ptr;
+      left: 150*@ptr;
+      width: 0;
+      height: 0;
+      border: 10*@ptr solid transparent;
+      border-bottom-color: rgba(67, 67, 67, .8);
+    }
+  }
+}

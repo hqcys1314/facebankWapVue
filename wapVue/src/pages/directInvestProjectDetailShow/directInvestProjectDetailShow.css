@@ -1,0 +1,9 @@
+.match-detail{background-color: #ffffff;overflow: hidden;padding-top: 1rem;}
+.match-detail .match-detail-title{font-size: 0.813rem;color: #2b313d;margin-left: 5%;width: 95%;border-bottom: 1px #DFE3EB solid;padding: 1rem 0;}
+.match-detail .match-detail-content{padding-bottom: 1rem;margin-left: 5%;}
+.match-detail .match-detail-content ul li{font-size: 0.75rem;margin-top: 1rem;    overflow: hidden;    word-break: break-all;}
+.match-detail .match-detail-content ul li .span1{color:#848999;    width: 28%;
+    display: block;
+    float: left;}
+.match-detail .match-detail-content ul li .span2{color: #2b313d;margin-left:28%; display:block;}
+.match-detail .match-detail-content ul li .span2 .small{margin-top: 0.2rem;color:#848999;font-size: 0.5rem;display: block;}

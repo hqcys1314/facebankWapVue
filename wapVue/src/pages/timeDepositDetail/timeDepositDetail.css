@@ -1,0 +1,119 @@
+.timeDepositDetail{height:100%;min-height:100%;position: absolute;width:100%;overflow:hidden;}
+.timeDepositDetail .page_box{background:#FFFFFF;}
+input::-webkit-input-placeholder{font-size: 1.25rem !important;line-height:1rem !important;padding:.75rem 0 !important;vertical-align: middle !important;color:#BCC2CC !important;font-weight:400 !important;}
+input::placeholder{font-size: 1.25rem !important;line-height:1rem !important;padding:.75rem 0 !important;vertical-align: middle !important;color:#BCC2CC !important;font-weight:400 !important;}
+
+
+
+
+.timeDepositDetail .floatBtn{width:2rem;height:2rem; position: absolute;top:7.40625rem;background:no-repeat center center/100% 100%;}
+.timeDepositDetail .floatBtn.preBtn{left:0;background-image:url(~assets/images/arrow_left.png)}
+.timeDepositDetail .floatBtn.nextBtn{right:0;background-image:url(~assets/images/arrow_right.png)}
+
+.timeDepositDetail .product_name{line-height:3.25rem;height:3.25rem;overflow:hidden;padding:0 1rem;}
+.timeDepositDetail .product_name p{display:inline-block;color:#2b313d;font-weight:600;font-size:1rem;}
+.timeDepositDetail .product_name .tag{padding:0 .375rem;line-height:1rem;font-size:.625rem;display:inline-block;background:#FDF2E5;color:#B88A2D;border-radius:.5rem;font-weight:400;vertical-align: middle;margin-right:.25rem;}
+
+.timeDepositDetail .product_info{background:url(~assets/images/bg_linner_2.jpg) no-repeat center center/100% 100%;box-shadow: 0 0 .3125rem 0 rgba(230,200,153,0.48);border-radius: .25rem;margin:0 1rem;color:#AD8B57;padding-bottom:1.125rem;}
+.timeDepositDetail .product_info .pro_bar{margin:0 1rem;height:2.65625rem;overflow:hidden; position:relative;}
+.timeDepositDetail .product_info .pro_bar .line{width:100%;background:#DCBF92;height:4px;position: absolute;left:0;top:50%;margin-top:-2px;}
+.timeDepositDetail .product_info .pro_bar li{width:auto; display:block;margin:0 auto;text-align: center;list-style-type:none; position: relative;height:100%;}
+.timeDepositDetail .product_info .pro_bar li.first{ text-align: left;float:left;}
+.timeDepositDetail .product_info .pro_bar li.last{ text-align: right;float:right;}
+.timeDepositDetail .product_info .pro_bar li p{font-size:.6875rem;color:#80571D;font-weight:600;width:100%;display: block; white-space: nowrap;}
+.timeDepositDetail .product_info .pro_bar li>p:last-child{ position: absolute;bottom:0;color:#AD8B57;font-weight:400;}
+.timeDepositDetail .product_info .pro_bar li span{width:.25rem;height:.25rem;overflow:hidden;background: #F3E1BC;border-radius:50%;border:.125rem solid #CFAF80; position: absolute;left:50%;top:50%;margin-top:-0.25rem;margin-left:-0.25rem;}
+.timeDepositDetail .product_info .pro_bar li.first{width:5rem; text-align:left;}
+.timeDepositDetail .product_info .pro_bar li.first span{ position: absolute;left:0;margin-left:0;}
+.timeDepositDetail .product_info .pro_bar li.last{width:5rem; text-align:right;}
+.timeDepositDetail .product_info .pro_bar li.last span{ position: absolute;left:auto;right:0;margin-left:0;}
+
+.timeDepositDetail .product_info .infos{padding:1.125rem 1rem 0 1rem;display:block;margin-bottom:2.25rem;}
+.timeDepositDetail .product_info .infos .left{width:50%;float:left;font-size:.6875rem;}
+.timeDepositDetail .product_info .infos .left p{font-size:.6875rem;margin-bottom:.5625rem;line-height:1.05;}
+.timeDepositDetail .product_info .infos .left strong{display:block;font-size:1.875rem;color:#80571D;}
+.timeDepositDetail .product_info .infos .left strong span{font-size:1.125rem;}
+.timeDepositDetail .product_info .infos .left strong i{font-style:normal;font-size:1.375rem;}
+.timeDepositDetail .product_info .infos .right{margin-top:.7rem;line-height: 1;margin-left: 50%; white-space: nowrap;}
+.timeDepositDetail .product_info .infos .right p{font-size:.6875rem;margin-bottom:.5625rem;line-height:1.05;}
+.timeDepositDetail .product_info .infos .right p span{font-size:1.5rem;font-weight:600;color:#80571D}
+.timeDepositDetail .product_info .infos .left .iconfont{color:#AD8B57;opacity: 0.6; vertical-align: middle;font-size:.75rem;}
+.timeDepositDetail .user_cash{ display:block;margin:.9375rem 1rem;height:auto;overflow:hidden;font-size:.75rem;line-height:1rem;color:#848999;}
+.timeDepositDetail .user_cash span:last-child{float:right; white-space: nowrap;}
+.timeDepositDetail .user_cash span i{font-style:normal;color:#2B313D;}
+.timeDepositDetail .inv-confirm-money {display:block;margin:0 1rem;height: 4.3rem;background:url(//static.facebank.cn/static/wapFront/autoInvest/img/input_bg.jpg) repeat-x top/100% 100%}
+.timeDepositDetail .inv-confirm-money .span1 {float: left;font-size: 2.25rem;line-height: 4.3rem;color:#2B313D}
+.timeDepositDetail .inv-confirm-money input {background:none;width: 65%;float: left;font-size: 2.25rem;margin-top: 0.8rem;line-height:2.5rem;height:2.5rem;-moz-box-sizing: border-box;box-sizing: border-box;margin-left: 2%;color: #252525;}
+.timeDepositDetail .inv-confirm-money .span-btn {color: #F0484E;float:right;border-radius:3px;font-size: 0.875rem;margin-top: 1.5rem;padding: 0.1rem 0;}
+
+.timeDepositDetail .interestBox{margin:0 1rem;line-height:2.5rem;font-size:.75rem;color:#848999;margin-bottom:1.625rem;}
+.timeDepositDetail .interestBox span{color:#F0484E;font-weight:600;font-family:Arial;}
+.timeDepositDetail .interestBox span.ten{color:#2B313D}
+.timeDepositDetail .margin1rem{}
+#timeDepositDetail.timeDepositDetail .btn_tpls{margin-bottom:0;}
+#timeDepositDetail.timeDepositDetail .product_intro{margin-top:0;}
+
+.timeDepositDetail .tel_box{ display:block;line-height:1rem; text-align: center;font-size:.75rem;color:#848999;margin:1.25rem 0 1rem;}
+.timeDepositDetail .tel_box a{color:#848999;}
+.timeDepositDetail .wapTip .p_phone a {  font-size: 1.125rem; color:#f0484e;width: 100%;text-align: center;height: 3rem;line-height: 3rem;  border-top: 1px #DFE3EB solid;display: block;margin-top: 0;}
+.timeDepositDetail .blank{height:2.75rem;}
+.timeDepositDetail .pull_box{ display:block;height:1.125rem;line-height:1.125rem;font-size:.75rem; text-align:center;}
+.timeDepositDetail .pull_box span{display:inline-block;margin:0 auto;color:#848999;width:1.15625rem;background:no-repeat center left /auto .75rem; white-space: nowrap;-webkit-animation:arrow_animate .7s linear infinite;animation:arrow_animate .7s linear infinite;}
+.timeDepositDetail .pull_box p{display:inline-block;}
+.timeDepositDetail .pull_box span.up{background-image:url(~assets/images/icon_pull_up.png);}
+.timeDepositDetail .pull_box span.down{background-image:url(~assets/images/icon_pull_down.png);}
+@-webkit-keyframes arrow_animate{
+0%{ -webkit-transform: translateY(0rem)}
+25%{ -webkit-transform: translateY(-.2rem)}
+50%{ -webkit-transform: translateY(0rem)}
+75%{ -webkit-transform: translateY(.2rem)}
+100%{ -webkit-transform: translateY(0rem)}
+}
+@keyframes arrow_animate{
+    0%{ transform: translateY(0rem)}
+    25%{ transform: translateY(-.2rem)}
+    50%{ transform: translateY(0rem)}
+    75%{ transform: translateY(.2rem)}
+    100%{ transform: translateY(0rem)}
+}
+
+.timeDepositDetail .TimeDepositLayerTips{display:block;padding-left:1.125rem;line-height:1.25rem;color:#848999; position: relative;font-size:.6875rem;}
+#timeDepositDetail.timeDepositDetail .layer_style .layer_content .TimeDepositLayerTips p{font-size:.75rem;}
+#timeDepositDetail.timeDepositDetail .layer_style .layer_content .TimeDepositLayerTips p.black{color:#2F323D}
+#timeDepositDetail.timeDepositDetail .layer_style .layer_btn.one a:active{background:#f5f5f5;}
+#timeDepositDetail.timeDepositDetail .layer_style .layer_btn.one a:hover{background:#f5f5f5;}
+.timeDepositDetail .TimeDepositLayerTips h2{color:#2F323D;font-size:.75rem;}
+.timeDepositDetail .TimeDepositLayerTips h2 span{display:block;color:#848999;font-weight: 400;margin-bottom:.75rem;}
+.timeDepositDetail .TimeDepositLayerTips .circle{width:.25rem;height:.25rem;border:2px solid #F0484E;border-radius:100%;background:#FFFFFF; position:absolute;top:0;left:0;z-index:2;}
+.timeDepositDetail .TimeDepositLayerTips .circle:nth-child(2){z-index:3;top:auto;bottom:-.1875rem;}
+.timeDepositDetail .TimeDepositLayerTips .left{width:0.375rem;height:11rem; position:absolute;left:0;top:.4rem;}
+.timeDepositDetail .TimeDepositLayerTips .left .line{width:.1875rem; position:absolute;left:0;top:.1875rem;;border-right:1px solid #DFE3EB;height:100%;}
+
+
+.timeDepositDetail .screenBox{ display:block;position: absolute;left:0;width:100%;height:100%;overflow:scroll;overflow-x:hidden;transition:0.5s;-webkit-transition:0.5s;-moz-transition:0.5s;-o-transition:0.5s;-webkit-overflow-scrolling:touch;}
+.timeDepositDetail .screenBox .button_area{ position: absolute;}
+.timeDepositDetail .screenBox .page_scroll{display:block;height:auto;overflow:hidden;}
+
+
+
+
+
+.timeDepositDetail .switchTab{ display:block;position: relative;line-height:2.75rem;height:2.75rem;background-color: #fff;color:#2b313d}
+.timeDepositDetail .switchTab ul{height:2.75rem;overflow:hidden;}
+.timeDepositDetail .switchTab ul li{width:50%;float:left; text-align:center;font-size:1rem;position: relative;font-weight:600;}
+.timeDepositDetail .switchTab ul li.current{color:#F0484E}
+.timeDepositDetail .switchTab ul li div{ height:2.75rem;position: relative; display:inline-block;font-style:normal;}
+.timeDepositDetail .switchTab ul li .tab_label{position: absolute;top:0.1rem;width:auto; white-space: nowrap;left:0;color:#FFFFFF; text-align:center;font-size:.6rem;line-height:0.85rem;font-style:normal;padding:0 .3rem;background:#FA4343;border-radius:.5rem .5rem .5rem 0;}
+.timeDepositDetail .switchTab .switch_line{ width:50%;position: absolute;left: 0;bottom:0;height:.125rem;
+    -webkit-transition:0.5s;
+    -moz-transition:0.5s;
+    -o-transition:0.5s;
+	transition:0.5s;
+}
+.timeDepositDetail .switchTab .switch_line:after{display:block;content: ' ';background:#F0484E;position: absolute;left: 50%;margin-left:-.5rem;;width:1rem;height:.125rem;bottom:0.28125rem;border-radius:.0625rem;}
+
+.switch_box{width:200%; position: absolute;left:0;top:2.75rem;bottom:0;overflow:auto;overflow-x:hidden;transition:0.5s;-webkit-transition:0.5s;-moz-transition:0.5s;-o-transition:0.5s;-webkit-overflow-scrolling:touch;}
+.switch_box .intro_box{width:50%;float:left;padding-bottom:5.625rem;}
+#timeDepositDetail.timeDepositDetail .switch_box .pull_box{padding:0.7875rem 0;width:50%;padding-right:50%;}
+
+

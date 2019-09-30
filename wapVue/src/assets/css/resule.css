@@ -1,0 +1,11 @@
+#resule .error_font{ display:block; text-align: center;color:#323642;font-size:1.125rem;line-height:1.5625rem;margin-bottom:.5rem;font-weight:bold;}
+#resule .error_small{ display:block;text-align:center;color:#848999;font-size:.75rem;line-height: 1rem;}
+#resule .charge_amount{ display:block;text-align:center;color:#2B313D;font-size:2.25rem;text-align:center;font-family:Arial;margin-bottom:.5rem;font-weight:bold;}
+#resule .blank88{height:2.75rem;}
+#resule .error_img{ display:block;padding:2.25rem 0;text-align:center;}
+#resule .error_img img{height:100%}
+#resule .error_img.net{height:7.5rem;}
+#resule .error_img.success{height:5.375rem;}
+#resule .error_img.changeSuccess{height:4.625rem;}
+#resule .error_img.fail{height:6.125rem;}
+#resule .desc{ display:block;margin:0 2.6875rem;padding:.75rem 0;line-height:1rem;font-size:.75rem;color:#848999}

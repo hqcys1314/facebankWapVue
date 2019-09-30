@@ -1,0 +1,62 @@
+/*列表页 */
+
+
+.directRecordDetail{background:#EFF1F4;}
+
+.switch_tab{display:block;line-height:2.75rem; text-align:center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom:.46875rem;background:#FFFFFF;font-size:1rem;font-weight:600;}
+    .switch_tab ul{width:66.66%;margin:0 auto;}
+.switch_tab li{width:50%;float:left;color:#2b313d}
+.switch_tab li.current{color:#f0484e; position:relative;}
+.switch_tab li.current:after{display:block;content: ' ';background:#F0484E;position: absolute;left: 50%;margin-left:-.5rem;;width:1rem;height:.125rem;bottom:0.28125rem;border-radius:.0625rem;}
+
+.wapPos .div-value{width: 90%;margin: 0 auto 1rem;padding-top: 1rem;}
+.wapPos .div-value p{margin-bottom: 0.6rem;}
+.wapPos .div-value p .span-right{float: right;}
+.wapPos .div-value p .span-right font{color: #f0484e;}
+
+.directRecordDetail .item_box{ display:block;padding-left:1rem;background:#FFFFFF;margin-bottom:.46875rem;}
+.directRecordDetail .item_box .title{border-bottom:1px solid #DFE3EB;line-height:3;font-size:0.9375rem;padding-top:.5rem;}
+.directRecordDetail .item_box:first-child .title{padding-top:0;}
+
+.directRecordDetail .item_box .item_dl{ display:block;padding:1.40625rem .9375rem 1rem 0;}
+.directRecordDetail .item_box .item_dl dl{line-height:1.5;margin-bottom:.625rem;height:auto;overflow:hidden;font-size:.9375rem;}
+.directRecordDetail .item_box .item_dl dl dt{width:5.5625rem;float:left;color:#848999}
+.directRecordDetail .item_box .item_dl dl dd{margin-left:5.5625rem;color:#2b313d;}
+.directRecordDetail .item_box .item_dl dl dd small{ display:block;font-size:.75rem;color:#848999;}
+.directRecordDetail .item_box .item_dl dl dd a{color:#f0484e}
+.directRecordDetail .item_box .item_dl dl dd.state_0{color:#2970FF}
+.directRecordDetail .item_box .item_dl dl dd.state_1{color:#F86E39}
+.directRecordDetail .item_box .item_dl dl dd.state_2{color:#717171}
+.directRecordDetail .item_box .item_dl dl dd span.gift{ display:inline-block;padding:0 .21875rem;font-size:.75rem;line-height:.9375rem;color:#f0484e;border:1px solid #f0484e;margin-left:.625rem;}
+.directRecordDetail .item_box .item_dl.style2 dl dt{width:7rem;}
+.directRecordDetail .item_box .item_dl.style2 dl dd{margin-left:7rem;}
+
+.directRecordDetail .item_box .progress_box{padding:1.6875rem 1rem 0 0}
+
+.directRecordDetail .item_box .progress_bar{ display:block; position:relative;padding:0;padding-bottom:.75rem;}
+.directRecordDetail .item_box .progress_bar .line{display:block;height:.3125rem;background:#EEEEF2;overflow:hidden;position:absolute;top:0.1875rem;left:0;width:100%;}
+.directRecordDetail .item_box .progress_bar .bar{width:0%;min-width:.3125rem; display:flex;height:.75rem; position:absolute;left:0;top:0;flex-wrap: nowrap}
+.directRecordDetail .item_box .progress_bar .bar .line{background:#f0484e;}
+.directRecordDetail .item_box .progress_bar .bar .dian{width:.3125rem;height:.3125rem; position:absolute;right:0;top:0rem;background:#FFFFFF;border:0.1875rem solid #f0484e;border-radius:50%;}
+.directRecordDetail .item_box .progress_bar .text{ display:block;height:auto;overflow:hidden;font-size:.875rem;line-height:2.78; white-space:nowrap;padding-top:.75rem;}
+.directRecordDetail .item_box .progress_bar .text span{float:right;}
+
+.directRecordDetail .list-type-1{ display:block;background:#FFFFFF;}
+.directRecordDetail .list-type-1 li{display:block;margin-left:1rem;padding-right:1rem;border-bottom:1px solid #F1F1F1;padding:.5rem 1rem 1.2rem 0;}
+.directRecordDetail .list-type-1 li .info{ display:block;;height:auto;overflow:hidden;line-height:2rem;margin-bottom:.875rem;font-size:0.875rem;}
+.directRecordDetail .list-type-1 li .info span{float:right; white-space:nowrap;font-size:.9375rem;line-height:2rem;}
+.directRecordDetail .list-type-1 li .info span.state_1{color:#3E87FF}
+.directRecordDetail .list-type-1 li .info span.state_2{color:#B8B8B8}
+.directRecordDetail .list-type-1 li .info span.state_3{color:#B8B8B8}
+
+.directRecordDetail .list-type-1 li .user_info{ display:flex; display:-webkit-flex;justify-content:space-between;}
+.directRecordDetail .list-type-1 li .user_info p{ display:block; text-align:center;line-heigth:1.5;font-size:.9375rem}
+.directRecordDetail .list-type-1 li .user_info p small{font-size:.6875rem; display:block;padding-top:0.46875rem;}
+.directRecordDetail .list-type-1 li .user_info p:last-child{ text-align:right;}
+.directRecordDetail .list-type-1 li .user_info p:first-child{ text-align:left;}
+.directRecordDetail .more{margin: 2rem 0;text-align: center;color: #848999;font-size: 0.85rem;height: 2rem;line-height: 2rem;}

@@ -1,0 +1,24 @@
+.timeDepositRecordDetail{ position: absolute;width:100%;height:100%;overflow:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch;}
+.timeDepositRecordDetail .list_title{line-height:2.75rem;padding-left:1rem;color:#848999;font-size:1rem;}
+.timeDepositRecordDetail .amdList{}
+.timeDepositRecordDetail .list-type{ display:block;}
+/* .timeDepositRecordDetail .list-type .list-type-i{display:block;padding-left:.9375rem;padding-right:1rem;padding:0;margin-bottom:0.625rem;background:#FFFFFF;margin-left:0;}
+.timeDepositRecordDetail .list-type .list-type-i .box{margin-left:.9375rem;}
+.timeDepositRecordDetail .list-type .list-type-i .info{ display:block;;height:auto;overflow:hidden;line-height:3.1875rem;margin-bottom:1.25rem;font-size:.875rem;border-bottom:1px solid #DFE3EB;color:#2b313d;padding-right:.9375rem;}
+.timeDepositRecordDetail .more{margin: 2rem 0;text-align: center;color: #848999;font-size: 0.85rem;height: 2rem;line-height: 2rem;}
+.timeDepositRecordDetail .list-type .list-type-i .ul-con{overflow: hidden;    border-bottom: 1px #DFE3EB solid;padding-bottom: 1.25rem;}
+.timeDepositRecordDetail .list-type .list-type-i .ul-con .li1{width: 33%;}
+.timeDepositRecordDetail .list-type .list-type-i .ul-con .li2{width: 44%;}
+.timeDepositRecordDetail .list-type .list-type-i .ul-con .li3{width: 23%;position: relative;}
+.timeDepositRecordDetail .list-type .list-type-i .ul-con .li3 .jt{position: absolute;width: 0.5rem;right: 0;}
+
+.timeDepositRecordDetail .list-type .list-type-i .ul-con li{color:#848999;float: left;font-size: 0.75rem;}
+.timeDepositRecordDetail .list-type .list-type-i .ul-con li span{color: #2b313d;margin-bottom: 0.2rem;font-weight: bold;display: block;font-size:1rem;}
+.timeDepositRecordDetail .list-type .list-type-i .ul-bot{color:#848999;font-size: 0.75rem;height: 2.5rem;line-height: 2.5rem;}
+.timeDepositRecordDetail .list-type .list-type-i .ul-bot .span1{}
+.timeDepositRecordDetail .list-type .list-type-i .ul-bot .span1 font{margin-left: 0.5rem;}
+.timeDepositRecordDetail .list-type .list-type-i .ul-bot .span2{float: right;padding-right:.9375rem;}
+
+.time.timeDepositRecordDetail .list-type .list-type-i .isOver .info{color:#848999;}
+.timeDepositRecordDetail .list-type .list-type-i .isOver .info span{float:right; white-space: nowrap;}
+.timeDepositRecordDetail .list-type .list-type-i .isOver .ul-con li span{color:#848999;} */

@@ -1,0 +1,40 @@
+/*列表页 */
+
+
+.switch_tab{display:block;line-height:2.75rem; text-align:center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom:.46875rem;background:#FFFFFF;font-size:1rem;font-weight:600;}
+    .switch_tab ul{width:66.66%;margin:0 auto;}
+.switch_tab li{width:50%;float:left;color:#2b313d}
+.switch_tab li.current{color:#f0484e; position:relative;}
+.switch_tab li.current:after{display:block;content: ' ';background:#F0484E;position: absolute;left: 50%;margin-left:-.5rem;;width:1rem;height:.125rem;bottom:0.28125rem;border-radius:.0625rem;}
+
+.directRecordList .data_list{ display:block;}
+.directRecordList .data_list li{margin-bottom:.1875rem;background:#FFFFFF;}
+.directRecordList .data_list li .box{padding:.75rem .9375rem 1rem;}
+.directRecordList .data_list li .name{ display:block;height:auto;overflow:hidden;line-height:1.875rem;font-size:1.0625rem; vertical-align:middle}
+.directRecordList .data_list li .name span.type{ display:inline-block;padding:0 .3125rem;line-height:.9375rem; background:#A2AEC8;border-radius:3px;color:#FFFFFF;margin-left:1.5rem;font-size:0.65625rem;}
+.directRecordList .data_list li .name span.type2{ display:inline-block;padding:0 .3125rem;line-height:.9375rem; background:none;color:#A2AEC8;margin-left:1.5rem;font-size:0.65625rem;}
+.directRecordList .data_list li .name span.state{float:right; white-space:nowrap;font-size:.9375rem;}
+.directRecordList .data_list li .info{ display:block;font-size:.9375rem;line-height:1.8;color:#A2A5AB;margin-bottom:.6875rem;}
+
+.directRecordList .data_list li .money_info{ display:block;height:auto;overflow:hidden;}
+.directRecordList .data_list li .money_info p{width:33.3%;float:left; display:block; text-align:center;line-heigth:1.5;font-size:1.0625rem}
+.directRecordList .data_list li .money_info p small{font-size:.6875rem; display:block;padding-top:0.46875rem;}
+.directRecordList .data_list li .money_info p:nth-child(1){ text-align:left;}
+.directRecordList .data_list li .money_info p:nth-child(3){ text-align:right;}
+.directRecordList .data_list li .tips{ display:block;border-top:1px solid #EAE9E9;border-bottom:1px solid #EAE9E9; background:#F8F9FB;padding:0 .9375rem; position:relative;}
+.directRecordList .data_list li .tips:after{width:.9375rem;height:.9375rem;border-top:1px solid #EAE9E9;border-right:1px solid #EAE9E9;border-bottom:0; background:#F8F9FB; -webkit-transform:rotate(-45deg); transform:rotate(-45deg); content:" "; position:absolute;left:2rem;top:-.5rem;}
+.directRecordList .data_list li .tips .title{ display:block;line-height:2rem;font-size:.75rem;color:#1f1f1f;}
+
+.directRecordList .data_list li .tips .arrow{width:.3125rem;height:.3125rem;border-top:1px solid #F86D37;border-right:1px solid #F86D37;border-bottom:0; background:#F8F9FB;  content:" "; position:absolute;}
+.directRecordList .data_list li .tips .arrow.close{right:.75rem;top:.7rem;-webkit-transform:rotate(135deg); transform:rotate(135deg);}
+.directRecordList .data_list li .tips .arrow.open{right:.75rem;top:.85rem;-webkit-transform:rotate(-45deg); transform:rotate(-45deg);}
+.directRecordList .data_list li .tips .desc{padding:.75rem 0;line-height:1.5; display:none}
+.directRecordList .data_list li .tips .desc small{ display:block;color:#484d51}
+.directRecordList .more{margin: 2rem 0;text-align: center;color: #848999;font-size: 0.85rem;height: 2rem;line-height: 2rem;}
+
+.directRecordList .grapTips{margin: 0 0;text-align: left;padding-left:.9375rem;background:#F5f5f5;color: #848999;font-size: 0.85rem;height: 2rem;line-height: 2rem; position:relative;}
